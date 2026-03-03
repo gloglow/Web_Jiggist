@@ -1,7 +1,5 @@
 import { Space_Grotesk, Playfair_Display } from "next/font/google";
 import "./../styles/globals.css";
-import Header from './components/header';
-import Footer from './components/footer';
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -21,9 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       {/* 폰트 변수를 body에 주입 */}
       <body className={`${spaceGrotesk.variable} ${playfair.variable} bg-background-dark text-slate-100 font-display`}>
-        <Header/>
         {children}
-        <Footer/>
       </body>
     </html>
   );

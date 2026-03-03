@@ -1,0 +1,34 @@
+{
+  "common": {
+    "apply": "Apply"
+  },
+  "products": {
+    "common": {
+      "addToCart": "Add to Cart"
+    },
+    "sort": {
+      "featured": "Featured"
+    },
+    "filters": {
+      "filters": "FILTERS",
+      "clearAll": "Clear All",
+      "material": "Material",
+      "stainlessSteel": "Stainless Steel",
+      "copperPlated": "Copper Plated",
+      "goldFinished": "Gold Finished",
+      "category": "Category",
+      "shakers": "Shakers",
+      "stirring": "Stirring",
+      "priceRange": "Price Range",
+      "applyFilters": "Apply Filters"
+    },
+    "liquor": {
+      "title": "Master Your Craft",
+      "subtitle": "Premium, precision-crafted barware designed for the modern mixologist."
+    },
+    "tool": {
+      "title": "Professional Tools",
+      "subtitle": "Essential equipment for serious bartenders."
+    }
+  }
+}

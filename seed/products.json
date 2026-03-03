@@ -1,0 +1,4646 @@
+[
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "The Macallan",
+    "price": 12500,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "single-malt",
+      "premium",
+      "sherry-oak",
+      "speyside"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-01-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-01-1/600/600)",
+      "[https://picsum.photos/seed/liq-01-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-01-2/600/600)"
+    ],
+    "name": {
+      "ko": "더 맥캘란 12년 쉐리 오크",
+      "en": "The Macallan 12 Years Old Sherry Oak",
+      "ja": "ザ・マッカラン 12年 シェリーオーク"
+    },
+    "description": {
+      "ko": "풍부한 말린 과일 향과 셰리 와인의 우아함이 특징인 싱글 몰트입니다. 하이엔드 바의 필수 품목입니다.",
+      "en": "A signature single malt featuring rich dried fruit notes and sherry elegance. A staple for high-end bars.",
+      "ja": "豊かなドライフルーツの香りとシェリーの優雅さが際立つシングルモルト。高級バーの必須アイテムです。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Buffalo Trace",
+    "price": 4800,
+    "stock": 42,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "bourbon",
+      "kentucky",
+      "versatile",
+      "classic"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-02-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-02-1/600/600)",
+      "[https://picsum.photos/seed/liq-02-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-02-2/600/600)",
+      "[https://picsum.photos/seed/liq-02-3/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-02-3/600/600)"
+    ],
+    "name": {
+      "ko": "버팔로 트레이스 켄터키 스트레이트 본",
+      "en": "Buffalo Trace Kentucky Straight Bourbon",
+      "ja": "バッファロートレース ケンタッキー ストレート バーボン"
+    },
+    "description": {
+      "ko": "바닐라와 캐러멜의 완벽한 밸런스로 올드 패션드 베이스로 가장 선호되는 버번 위스키입니다.",
+      "en": "A perfectly balanced bourbon with vanilla and caramel notes, preferred as a base for Old Fashioneds.",
+      "ja": "バニラとキャラメルの絶妙なバランスで、オールドファッションドのベースとして最も好まれるバーボンです。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "gin",
+    "brand": "Tanqueray",
+    "price": 3200,
+    "stock": 60,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "london-dry",
+      "botanical",
+      "juniper-forward",
+      "bar-essential"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-03-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-03-1/600/600)",
+      "[https://picsum.photos/seed/liq-03-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-03-2/600/600)"
+    ],
+    "name": {
+      "ko": "탱커레이 No. Ten",
+      "en": "Tanqueray No. Ten Gin",
+      "ja": "タンカレー ナンバーテン"
+    },
+    "description": {
+      "ko": "신선한 시트러스와 주니퍼 베리의 조화가 뛰어난 프리미엄 진으로 마티니 제조에 최적화되어 있습니다.",
+      "en": "A premium gin with a harmony of fresh citrus and juniper, optimized for crafting the perfect Martini.",
+      "ja": "フレッシュなシトラスとジュニパーベリーの調和が素晴らしいプレミアムジン。マティーニに最適です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "rum",
+    "brand": "Bacardi",
+    "price": 2100,
+    "stock": 85,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "white-rum",
+      "cocktail-base",
+      "puerto-rico",
+      "clean"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-04-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-04-1/600/600)",
+      "[https://picsum.photos/seed/liq-04-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-04-2/600/600)"
+    ],
+    "name": {
+      "ko": "바카디 카르타 블랑카",
+      "en": "Bacardi Carta Blanca",
+      "ja": "バカルディ スペリオール (ホワイト)"
+    },
+    "description": {
+      "ko": "모히토와 다이키리의 정석을 보여주는 깔끔한 화이트 럼입니다. 전 세계 바텐더의 선택입니다.",
+      "en": "The definitive white rum for Mojitos and Daiquiris. The choice of bartenders worldwide.",
+      "ja": "モヒートやダイキリのスタンダードとなるクリーンなホワイトラム。世界中のバーテンダーに愛用されています。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "tequila",
+    "brand": "Patron",
+    "price": 8500,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "silver-tequila",
+      "100-agave",
+      "premium",
+      "smooth"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-05-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-05-1/600/600)",
+      "[https://picsum.photos/seed/liq-05-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-05-2/600/600)",
+      "[https://picsum.photos/seed/liq-05-3/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-05-3/600/600)"
+    ],
+    "name": {
+      "ko": "패트론 실버",
+      "en": "Patron Silver Tequila",
+      "ja": "パトロン シルバー"
+    },
+    "description": {
+      "ko": "100% 블루 아가베로 만든 울트라 프리미엄 테킬라입니다. 부드러운 목넘김과 깔끔한 아가베 향을 선사합니다.",
+      "en": "Ultra-premium tequila made from 100% Weber Blue Agave. Offers a smooth finish and clean agave aroma.",
+      "ja": "100％ブルーアガベを使用したウルトラプレミアムテキーラ。滑らかな口当たりとクリーンなアガベの香りが特徴です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "vodka",
+    "brand": "Grey Goose",
+    "price": 5500,
+    "stock": 35,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "premium-vodka",
+      "france",
+      "wheat",
+      "luxury"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-06-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-06-1/600/600)",
+      "[https://picsum.photos/seed/liq-06-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-06-2/600/600)"
+    ],
+    "name": {
+      "ko": "그레이 구스",
+      "en": "Grey Goose Vodka",
+      "ja": "グレイグース ウォッカ"
+    },
+    "description": {
+      "ko": "프랑스산 최고급 밀을 사용하여 정제된 우아하고 세련된 보드카입니다.",
+      "en": "A refined and elegant vodka crafted using the finest French wheat.",
+      "ja": "フランス産の最高級小麦を使用した、洗練されたエレガントなウォッカです。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "triple-sec",
+    "brand": "Cointreau",
+    "price": 3800,
+    "stock": 50,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "orange-liqueur",
+      "margarita-essential",
+      "france",
+      "aromatic"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-07-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-07-1/600/600)",
+      "[https://picsum.photos/seed/liq-07-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-07-2/600/600)"
+    ],
+    "name": {
+      "ko": "코인트로",
+      "en": "Cointreau Liqueur",
+      "ja": "コアントロー"
+    },
+    "description": {
+      "ko": "천연 오렌지 껍질의 정수를 담은 리큐르로, 사이드카와 마가리타 제조에 필수적입니다.",
+      "en": "A liqueur capturing the essence of natural orange peels, essential for Sidecars and Margaritas.",
+      "ja": "天然オレンジピールの精髄を込めたリキュール。サイドカーやマルガリータに欠かせません。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "liqueur",
+    "brand": "Campari",
+    "price": 2800,
+    "stock": 40,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "bitter",
+      "aperitivo",
+      "italy",
+      "negroni"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-08-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-08-1/600/600)",
+      "[https://picsum.photos/seed/liq-08-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-08-2/600/600)"
+    ],
+    "name": {
+      "ko": "캄파리",
+      "en": "Campari",
+      "ja": "カンパリ"
+    },
+    "description": {
+      "ko": "강렬한 붉은색과 특유의 쓴맛이 매력적인 이탈리아의 대표적인 아페리티보 리큐르입니다.",
+      "en": "The iconic Italian aperitivo known for its vibrant red color and distinctive bitter profile.",
+      "ja": "鮮やかな赤色と独特の苦味が魅力的な、イタリアを代表するアペリティフ・リキュールです。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Jameson",
+    "price": 2900,
+    "stock": 100,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "irish-whiskey",
+      "triple-distilled",
+      "smooth",
+      "highball"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-09-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-09-1/600/600)",
+      "[https://picsum.photos/seed/liq-09-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-09-2/600/600)"
+    ],
+    "name": {
+      "ko": "제임슨 아이리쉬 위스키",
+      "en": "Jameson Irish Whiskey",
+      "ja": "ジェムソン アイリッシュウイスキー"
+    },
+    "description": {
+      "ko": "3번 증류하여 극강의 부드러움을 자랑하며 하이볼이나 진저 에일 믹스에 최적입니다.",
+      "en": "Triple-distilled for ultimate smoothness, perfect for highballs or mixing with ginger ale.",
+      "ja": "3回蒸留による究極の滑らかさが特徴。ハイボールやジンジャーエールとの相性が抜群です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "gin",
+    "brand": "Hendrick's",
+    "price": 4900,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "cucumber",
+      "rose",
+      "scotland",
+      "unique"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-10-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-10-1/600/600)",
+      "[https://picsum.photos/seed/liq-10-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-10-2/600/600)"
+    ],
+    "name": {
+      "ko": "헨드릭스 진",
+      "en": "Hendrick's Gin",
+      "ja": "ヘンドリックス ジン"
+    },
+    "description": {
+      "ko": "장미 꽃잎과 오이 추출물로 독특한 향을 더한 스코틀랜드산 핸드크래프트 진입니다.",
+      "en": "A handcrafted Scottish gin uniquely infused with rose petals and cucumber essence.",
+      "ja": "バラの花びらときゅうりのエキスで独特な香りを加えた、スコットランド産のハンドクラフトジン。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "vermouth",
+    "brand": "Martini & Rossi",
+    "price": 1800,
+    "stock": 45,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "sweet-vermouth",
+      "italy",
+      "negroni-base",
+      "aromatic"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-11-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-11-1/600/600)",
+      "[https://picsum.photos/seed/liq-11-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-11-2/600/600)"
+    ],
+    "name": {
+      "ko": "마티니 로쏘",
+      "en": "Martini & Rossi Rosso Vermouth",
+      "ja": "マティーニ ロッソ"
+    },
+    "description": {
+      "ko": "허브와 향신료의 풍부한 아로마가 특징인 레드 베르무트입니다. 네그로니 제조 시 필수입니다.",
+      "en": "A red vermouth with rich herbal and spice aromas. Essential for crafting a classic Negroni.",
+      "ja": "ハーブとスパイスの豊かなアロマが特徴のレッドベルモット。ネグローニには欠かせません。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Hibiki",
+    "price": 18000,
+    "stock": 5,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "japanese-whiskey",
+      "blended",
+      "premium",
+      "harmony"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-12-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-12-1/600/600)",
+      "[https://picsum.photos/seed/liq-12-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-12-2/600/600)"
+    ],
+    "name": {
+      "ko": "히비키 재패니즈 하모니",
+      "en": "Hibiki Japanese Harmony",
+      "ja": "響 JAPANESE HARMONY"
+    },
+    "description": {
+      "ko": "일본 위스키의 미학을 담은 블렌디드 위스키로, 섬세하고 조화로운 풍미를 자랑합니다.",
+      "en": "A blended whiskey representing the aesthetics of Japanese whiskey, boasting a delicate harmony.",
+      "ja": "日本のウイスキーの感性を集結させたブレンデッドウイスキー。繊細で調和のとれた味わいです。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "liqueur",
+    "brand": "Kahlua",
+    "price": 2400,
+    "stock": 55,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "coffee-liqueur",
+      "mexico",
+      "dessert-cocktail",
+      "sweet"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-13-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-13-1/600/600)",
+      "[https://picsum.photos/seed/liq-13-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-13-2/600/600)"
+    ],
+    "name": {
+      "ko": "깔루아",
+      "en": "Kahlua Coffee Liqueur",
+      "ja": "カルーア"
+    },
+    "description": {
+      "ko": "멕시코산 아라비카 원두를 사용한 세계적인 커피 리큐르입니다. 블랙 러시안의 핵심 재료입니다.",
+      "en": "A world-renowned coffee liqueur made with Mexican Arabica beans. Core ingredient for Black Russians.",
+      "ja": "メキシコ産アラビカ豆を使用した世界的なコーヒーリキュール。ブラックルシアンの核となる材料です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Laphroaig",
+    "price": 9500,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "islay",
+      "peated",
+      "smoky",
+      "medicinal"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-14-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-14-1/600/600)",
+      "[https://picsum.photos/seed/liq-14-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-14-2/600/600)"
+    ],
+    "name": {
+      "ko": "라프로익 10년",
+      "en": "Laphroaig 10 Year Old",
+      "ja": "ラフロイグ 10年"
+    },
+    "description": {
+      "ko": "강렬한 피트 향과 해초의 짠맛이 어우러진 아일라 위스키의 정수입니다.",
+      "en": "The quintessential Islay whiskey, combining intense peat smoke with salty seaweed notes.",
+      "ja": "強烈なピート香と潮の香りが調和した、アイラウイスキーの真髄です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "rum",
+    "brand": "Diplomatico",
+    "price": 6200,
+    "stock": 18,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "dark-rum",
+      "venezuela",
+      "sipping-rum",
+      "rich"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-15-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-15-1/600/600)",
+      "[https://picsum.photos/seed/liq-15-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-15-2/600/600)"
+    ],
+    "name": {
+      "ko": "디플로마티코 레제르바 익스클루시바",
+      "en": "Diplomatico Reserva Exclusiva",
+      "ja": "ディプロマティコ レセルバ エクスクルーシバ"
+    },
+    "description": {
+      "ko": "베네수엘라산 프리미엄 다크 럼으로, 니트로 즐기기에 가장 적합한 달콤하고 풍부한 풍미를 지녔습니다.",
+      "en": "A premium Venezuelan dark rum with a sweet and rich profile, ideal for sipping neat.",
+      "ja": "ベネズエラ産のプレミアムダークラム。ストレートで楽しむのに最適な、甘く豊かな風味が特徴です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "liqueur",
+    "brand": "Chartreuse",
+    "price": 7800,
+    "stock": 8,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "herbal",
+      "france",
+      "monastic",
+      "complex"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-16-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-16-1/600/600)",
+      "[https://picsum.photos/seed/liq-16-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-16-2/600/600)"
+    ],
+    "name": {
+      "ko": "샤르트뢰즈 그린",
+      "en": "Chartreuse Green",
+      "ja": "シャルトリューズ ヴェール (緑)"
+    },
+    "description": {
+      "ko": "130가지 허브로 만든 프랑스 수도원 리큐르입니다. '라스트 워드' 칵테일의 필수 요소입니다.",
+      "en": "A French monastic liqueur made with 130 herbs. An essential component for the 'Last Word' cocktail.",
+      "ja": "130種類のハーブから作られるフランスの修道院リキュール。カクテル「ラストワード」に不可欠です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "gin",
+    "brand": "Bombay Sapphire",
+    "price": 2800,
+    "stock": 70,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "london-dry",
+      "botanical",
+      "blue-bottle",
+      "standard"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-17-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-17-1/600/600)",
+      "[https://picsum.photos/seed/liq-17-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-17-2/600/600)"
+    ],
+    "name": {
+      "ko": "봄베이 사파이어",
+      "en": "Bombay Sapphire Gin",
+      "ja": "ボンベイ・サファイア"
+    },
+    "description": {
+      "ko": "10가지 엄선된 보태니컬을 증기 주입 방식으로 추출하여 화사한 향을 자랑합니다.",
+      "en": "Features a bright aroma extracted from 10 select botanicals using a vapor infusion process.",
+      "ja": "10種類の厳選されたボタニカルを蒸気注入法で抽出し、華やかな香りを実現しています。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "tequila",
+    "brand": "Don Julio",
+    "price": 9200,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "reposado",
+      "aged",
+      "mexico",
+      "smooth"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-18-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-18-1/600/600)",
+      "[https://picsum.photos/seed/liq-18-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-18-2/600/600)"
+    ],
+    "name": {
+      "ko": "돈 훌리오 레포사도",
+      "en": "Don Julio Reposado",
+      "ja": "ドン・フリオ レポサド"
+    },
+    "description": {
+      "ko": "오크통에서 8개월간 숙성되어 부드러운 초콜릿과 바닐라 힌트를 제공하는 프리미엄 테킬라입니다.",
+      "en": "A premium tequila aged for 8 months in oak barrels, offering hints of chocolate and vanilla.",
+      "ja": "オーク樽で8ヶ月間熟成され、チョコレートやバニラのニュアンスを感じさせるプレミアムテキーラ。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "vodka",
+    "brand": "Belvedere",
+    "price": 5200,
+    "stock": 30,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "rye-vodka",
+      "poland",
+      "super-premium",
+      "clean"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-19-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-19-1/600/600)",
+      "[https://picsum.photos/seed/liq-19-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-19-2/600/600)"
+    ],
+    "name": {
+      "ko": "벨베데레 보드카",
+      "en": "Belvedere Vodka",
+      "ja": "ベルヴェデール ウォッカ"
+    },
+    "description": {
+      "ko": "폴란드산 호밀 100%를 사용하여 생산된 크리미한 질감의 럭셔리 보드카입니다.",
+      "en": "A luxury vodka produced from 100% Polish rye, featuring a creamy mouthfeel.",
+      "ja": "ポーランド産ライ麦を100％使用して作られた、クリーミーな質感のラグジュアリーウォッカ。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "liqueur",
+    "brand": "Aperol",
+    "price": 2300,
+    "stock": 65,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "aperitivo",
+      "italy",
+      "spritz",
+      "orange"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-20-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-20-1/600/600)",
+      "[https://picsum.photos/seed/liq-20-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-20-2/600/600)"
+    ],
+    "name": {
+      "ko": "아페롤",
+      "en": "Aperol",
+      "ja": "アペロール"
+    },
+    "description": {
+      "ko": "낮은 도수와 달콤쌉싸름한 오렌지 맛으로 '아페롤 스프리츠' 제조에 핵심적인 역할을 합니다.",
+      "en": "Essential for the 'Aperol Spritz' with its low ABV and bittersweet orange flavor.",
+      "ja": "低アルコールで甘酸っぱいオレンジの風味が特徴。「アペロール・スプリッツ」には欠かせません。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Jack Daniel's",
+    "price": 3500,
+    "stock": 90,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "tennessee-whiskey",
+      "charcoal-mellowed",
+      "iconic",
+      "sweet"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-21-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-21-1/600/600)",
+      "[https://picsum.photos/seed/liq-21-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-21-2/600/600)"
+    ],
+    "name": {
+      "ko": "잭 다니엘스 올드 No.7",
+      "en": "Jack Daniel's Old No. 7",
+      "ja": "ジャックダニエル ブラック Old No.7"
+    },
+    "description": {
+      "ko": "단풍나무 숯 여과 과정을 거친 테네시 위스키로, 특유의 부드럽고 달콤한 향이 특징입니다.",
+      "en": "A Tennessee whiskey mellowed through charcoal, known for its distinct smooth and sweet aroma.",
+      "ja": "チャコール・メローイング製法によるテネシーウイスキー。独特の滑らかさと甘い香りが特徴です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "bitters",
+    "brand": "Angostura",
+    "price": 2200,
+    "stock": 40,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "aromatic-bitters",
+      "trinidad",
+      "essential",
+      "spicy"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-22-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-22-1/600/600)",
+      "[https://picsum.photos/seed/liq-22-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-22-2/600/600)"
+    ],
+    "name": {
+      "ko": "앙고스투라 아로마틱 비터즈",
+      "en": "Angostura Aromatic Bitters",
+      "ja": "アンゴスチュラ アロマティック ビターズ"
+    },
+    "description": {
+      "ko": "모든 바의 필수품. 단 몇 방울로 칵테일의 복합미를 완성하는 마법의 재료입니다.",
+      "en": "A must-have for every bar. Just a few dashes add depth and complexity to any cocktail.",
+      "ja": "すべてのバーの必需品。数滴でカクテルに深みと複雑さを加える魔法のアイテムです。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Woodford Reserve",
+    "price": 6000,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "bourbon",
+      "kentucky-derby",
+      "complex",
+      "rich"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-23-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-23-1/600/600)",
+      "[https://picsum.photos/seed/liq-23-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-23-2/600/600)"
+    ],
+    "name": {
+      "ko": "우드포드 리저브",
+      "en": "Woodford Reserve Bourbon",
+      "ja": "ウッドフォードリザーブ"
+    },
+    "description": {
+      "ko": "200가지 이상의 풍미가 담긴 프리미엄 버번입니다. 구운 견과류와 향신료의 여운이 깊습니다.",
+      "en": "A premium bourbon with over 200 flavor notes, featuring long finishes of toasted nuts and spices.",
+      "ja": "200種類以上のフレーバーを感じさせるプレミアムバーボン。香ばしいナッツとスパイスの余韻が続きます。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "gin",
+    "brand": "Roku",
+    "price": 3500,
+    "stock": 45,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "japanese-gin",
+      "botanical",
+      "seasonal",
+      "floral"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-24-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-24-1/600/600)",
+      "[https://picsum.photos/seed/liq-24-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-24-2/600/600)"
+    ],
+    "name": {
+      "ko": "로쿠 진",
+      "en": "Roku Gin",
+      "ja": "サントリー ジャパニーズクラフトジン ROKU"
+    },
+    "description": {
+      "ko": "6가지 일본 계절 보태니컬을 사용하여 섬세한 차와 꽃향기를 구현한 재패니즈 진입니다.",
+      "en": "A Japanese gin using six seasonal botanicals to create delicate tea and floral notes.",
+      "ja": "6種類の和ボタニカルを使用し、繊細なお茶や花の香りを実現したジャパニーズジン。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Ardbeg",
+    "price": 8800,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "islay",
+      "heavily-peated",
+      "smoky",
+      "wild"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-25-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-25-1/600/600)",
+      "[https://picsum.photos/seed/liq-25-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-25-2/600/600)"
+    ],
+    "name": {
+      "ko": "아드벡 10년",
+      "en": "Ardbeg 10 Years Old",
+      "ja": "アードベッグ 10年"
+    },
+    "description": {
+      "ko": "가장 복합적이고 거친 피트 향을 가진 아일라 몰트로, 매니아층이 두터운 위스키입니다.",
+      "en": "The most complex and peaty Islay malt, a favorite among smokey whiskey enthusiasts.",
+      "ja": "最も複雑で力強いピート香を持つアイラモルト。スモーキーなウイスキー愛好家に絶大な人気を誇ります。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "rum",
+    "brand": "Havana Club",
+    "price": 2800,
+    "stock": 50,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "cuba",
+      "anejo",
+      "cocktail-rum",
+      "authentic"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-26-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-26-1/600/600)",
+      "[https://picsum.photos/seed/liq-26-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-26-2/600/600)"
+    ],
+    "name": {
+      "ko": "하바나 클럽 3년",
+      "en": "Havana Club 3 Años",
+      "ja": "ハバナクラブ 3年"
+    },
+    "description": {
+      "ko": "정통 쿠바 럼의 풍미를 담고 있으며, 가벼운 바닐라와 초콜릿 향이 칵테일과 조화를 이룹니다.",
+      "en": "Embodies the flavor of authentic Cuban rum, with light vanilla and chocolate notes perfect for cocktails.",
+      "ja": "本場キューバ・ラムの風味を湛え、軽いバニラとチョコの香りがカクテルを引き立てます。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Wild Turkey",
+    "price": 4200,
+    "stock": 40,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "bourbon",
+      "101-proof",
+      "bold",
+      "spicy"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-27-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-27-1/600/600)",
+      "[https://picsum.photos/seed/liq-27-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-27-2/600/600)"
+    ],
+    "name": {
+      "ko": "와일드 터키 101",
+      "en": "Wild Turkey 101 Bourbon",
+      "ja": "ワイルドターキー 101"
+    },
+    "description": {
+      "ko": "높은 도수(50.5%)에서 오는 강렬한 타격감과 풍부한 오크 향이 매력적인 버번입니다.",
+      "en": "A bold bourbon featuring a strong punch and rich oak flavor from its 101 proof.",
+      "ja": "50.5度という高アルコールならではの強烈なインパクトと、豊かなオーク香が魅力のバーボン。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Maker's Mark",
+    "price": 4500,
+    "stock": 35,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "wheated-bourbon",
+      "smooth",
+      "handmade",
+      "red-wax"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-28-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-28-1/600/600)",
+      "[https://picsum.photos/seed/liq-28-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-28-2/600/600)"
+    ],
+    "name": {
+      "ko": "메이커스 마크",
+      "en": "Maker's Mark Bourbon",
+      "ja": "メーカーズマーク"
+    },
+    "description": {
+      "ko": "호밀 대신 밀을 사용하여 매우 부드럽고 달콤한 끝맛을 자랑하는 핸드메이드 버번입니다.",
+      "en": "A handmade wheated bourbon known for its exceptionally smooth and sweet finish.",
+      "ja": "ライ麦の代わりに小麦を使用。非常に滑らかで甘い後味が特徴のハンドメイドバーボンです。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "liqueur",
+    "brand": "Baileys",
+    "price": 2600,
+    "stock": 60,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "cream-liqueur",
+      "ireland",
+      "sweet",
+      "dessert"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-29-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-29-1/600/600)",
+      "[https://picsum.photos/seed/liq-29-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-29-2/600/600)"
+    ],
+    "name": {
+      "ko": "베일리스 오리지널",
+      "en": "Baileys Original Irish Cream",
+      "ja": "ベイリーズ オリジナル アイリッシュクリーム"
+    },
+    "description": {
+      "ko": "아이리쉬 위스키와 신선한 크림, 초콜릿의 달콤한 조화를 느낄 수 있는 리큐르입니다.",
+      "en": "A sweet blend of Irish whiskey, fresh dairy cream, and hints of chocolate.",
+      "ja": "アイリッシュウイスキーとフレッシュクリーム、カカオの甘い調和が楽しめるリキュール。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "tequila",
+    "brand": "Jose Cuervo",
+    "price": 2500,
+    "stock": 80,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "tequila-gold",
+      "party",
+      "standard",
+      "mexico"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-30-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-30-1/600/600)",
+      "[https://picsum.photos/seed/liq-30-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-30-2/600/600)"
+    ],
+    "name": {
+      "ko": "호세 쿠엘보 에스페샬",
+      "en": "Jose Cuervo Especial Gold",
+      "ja": "クエルボ・エスペシャル"
+    },
+    "description": {
+      "ko": "전 세계에서 가장 많이 팔리는 테킬라로, 파티 샷과 마가리타 믹스용으로 널리 쓰입니다.",
+      "en": "The world's best-selling tequila, widely used for party shots and Margarita mixes.",
+      "ja": "世界で最も売れているテキーラ。パーティーのショットやマルガリータのベースに広く使われます。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Johnnie Walker",
+    "price": 5800,
+    "stock": 50,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "blended-scotch",
+      "black-label",
+      "smoky",
+      "balanced"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-31-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-31-1/600/600)",
+      "[https://picsum.photos/seed/liq-31-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-31-2/600/600)"
+    ],
+    "name": {
+      "ko": "조니워커 블랙 라벨",
+      "en": "Johnnie Walker Black Label",
+      "ja": "ジョニーウォーカー ブラックラベル 12年"
+    },
+    "description": {
+      "ko": "40여 가지 이상의 위스키가 블렌딩되어 깊은 스모키함과 복합적인 풍미를 보여주는 명작입니다.",
+      "en": "A masterpiece blended from over 40 whiskies, offering deep smokiness and complex flavors.",
+      "ja": "40種類以上のウイスキーをブレンド。深みのあるスモーキーさと複雑な味わいの傑作です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "triple-sec",
+    "brand": "Bols",
+    "price": 1800,
+    "stock": 65,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "orange-curacao",
+      "cocktail-standard",
+      "netherlands",
+      "affordable"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-32-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-32-1/600/600)",
+      "[https://picsum.photos/seed/liq-32-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-32-2/600/600)"
+    ],
+    "name": {
+      "ko": "볼스 트리플 섹",
+      "en": "Bols Triple Sec",
+      "ja": "ボルス トリプルセック"
+    },
+    "description": {
+      "ko": "합리적인 가격으로 다양한 칵테일에 오렌지 향을 더해주는 바의 필수 리큐르입니다.",
+      "en": "An essential bar liqueur that adds orange notes to various cocktails at an affordable price.",
+      "ja": "手頃な価格で、様々なカクテルにオレンジの香りを添えるバーの定番リキュール。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Bulleit",
+    "price": 4600,
+    "stock": 0,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "rye-whiskey",
+      "spicy",
+      "high-rye",
+      "bartender-favorite"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-33-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-33-1/600/600)",
+      "[https://picsum.photos/seed/liq-33-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-33-2/600/600)"
+    ],
+    "name": {
+      "ko": "불렛 라이 위스키",
+      "en": "Bulleit Rye Whiskey",
+      "ja": "ビュレット ライ"
+    },
+    "description": {
+      "ko": "95% 호밀 함량으로 매우 스파이시하고 깔끔한 맛을 자랑합니다. 맨해튼 칵테일에 강력 추천합니다.",
+      "en": "With 95% rye content, it boasts a spicy and clean profile. Highly recommended for Manhattans.",
+      "ja": "ライ麦比率95％。非常にスパイシーでクリーンな味わい。マンハッタンに強くお勧めします。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "gin",
+    "brand": "Monkey 47",
+    "price": 8500,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "germany",
+      "schwarzwald",
+      "craft-gin",
+      "complex"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-34-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-34-1/600/600)",
+      "[https://picsum.photos/seed/liq-34-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-34-2/600/600)"
+    ],
+    "name": {
+      "ko": "몽키 47 드라이 진",
+      "en": "Monkey 47 Schwarzwald Dry Gin",
+      "ja": "モンキー 47 ドライ・ジン"
+    },
+    "description": {
+      "ko": "47가지 보태니컬이 선사하는 압도적인 향의 복합미를 느낄 수 있는 독일산 프리미엄 진입니다.",
+      "en": "A premium German gin offering an overwhelming complexity of aromas from 47 botanicals.",
+      "ja": "47種類のボタニカルが織りなす圧倒的な香りの複雑さを楽しめる、ドイツ産プレミアムジン。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "vermouth",
+    "brand": "Noilly Prat",
+    "price": 2500,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "dry-vermouth",
+      "france",
+      "martini-essential",
+      "herbal"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-35-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-35-1/600/600)",
+      "[https://picsum.photos/seed/liq-35-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-35-2/600/600)"
+    ],
+    "name": {
+      "ko": "노일리 프랏 드라이",
+      "en": "Noilly Prat Original Dry",
+      "ja": "ノイリー・プラット ドライ"
+    },
+    "description": {
+      "ko": "프랑스 최고의 드라이 베르무트로, 클래식 마티니의 풍미를 완성하는 데 필수적입니다.",
+      "en": "The finest French dry vermouth, essential for perfecting the flavor of a classic Martini.",
+      "ja": "フランス最高級のドライベルモット。クラシックマティーニの風味を完成させる必需品。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Glenfiddich",
+    "price": 8200,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "single-malt",
+      "speyside",
+      "pear-notes",
+      "classic"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-36-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-36-1/600/600)",
+      "[https://picsum.photos/seed/liq-36-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-36-2/600/600)"
+    ],
+    "name": {
+      "ko": "글렌피딕 12년",
+      "en": "Glenfiddich 12 Year Old",
+      "ja": "グレンフィディック 12年"
+    },
+    "description": {
+      "ko": "신선한 서양배 향과 은은한 오크 향이 조화를 이루는 세계에서 가장 유명한 싱글 몰트입니다.",
+      "en": "The world's most famous single malt, balancing fresh pear notes with subtle oak.",
+      "ja": "新鮮な洋梨の香りとほのかなオーク香が調和する、世界で最も有名なシングルモルトです。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "vodka",
+    "brand": "Absolut",
+    "price": 2200,
+    "stock": 90,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "sweden",
+      "pure-vodka",
+      "mixology",
+      "standard"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-37-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-37-1/600/600)",
+      "[https://picsum.photos/seed/liq-37-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-37-2/600/600)"
+    ],
+    "name": {
+      "ko": "앱솔루트 보드카",
+      "en": "Absolut Vodka",
+      "ja": "アブソルート ウオッカ"
+    },
+    "description": {
+      "ko": "스웨덴산 겨울 밀로 생산되어 순수하고 부드러우며 어떤 믹서와도 잘 어울립니다.",
+      "en": "Produced from Swedish winter wheat, pure and smooth, blending well with any mixer.",
+      "ja": "スウェーデン産冬小麦を使用。ピュアで滑らか、どんなミキサーとも相性抜群です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Bowmore",
+    "price": 9500,
+    "stock": 14,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "islay",
+      "balanced-peat",
+      "honey-smoke",
+      "ocean"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-38-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-38-1/600/600)",
+      "[https://picsum.photos/seed/liq-38-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-38-2/600/600)"
+    ],
+    "name": {
+      "ko": "보모어 12년",
+      "en": "Bowmore 12 Year Old",
+      "ja": "ボウモア 12年"
+    },
+    "description": {
+      "ko": "부드러운 피트 연기와 다크 초콜릿, 꿀의 향이 섬세하게 균형을 이루는 아일라 위스키입니다.",
+      "en": "An Islay whiskey delicately balancing subtle peat smoke with notes of dark chocolate and honey.",
+      "ja": "穏やかなピート煙とダークチョコ、蜂蜜の香りが繊細に調和したアイラウイスキー。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "rum",
+    "brand": "Appleton Estate",
+    "price": 4200,
+    "stock": 28,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "jamaica",
+      "aged-rum",
+      "pot-still",
+      "aromatic"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-39-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-39-1/600/600)",
+      "[https://picsum.photos/seed/liq-39-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-39-2/600/600)"
+    ],
+    "name": {
+      "ko": "애플톤 이스테이트 12년",
+      "en": "Appleton Estate 12 Year Old Rare Casks",
+      "ja": "アップルトン エステート 12年 レアカスク"
+    },
+    "description": {
+      "ko": "자메이카 전통 팟 스틸 증류 방식으로 생산되어 풍부하고 과일 향이 가득한 프리미엄 럼입니다.",
+      "en": "A premium Jamaican rum produced via traditional pot stills, rich and full of fruity aromas.",
+      "ja": "ジャマイカ伝統のポットスチルで蒸留。豊かでフルーティーな香りのプレミアムラム。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "liqueur",
+    "brand": "Disaronno",
+    "price": 3200,
+    "stock": 40,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "amaretto",
+      "italy",
+      "almond-flavor",
+      "sweet"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-40-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-40-1/600/600)",
+      "[https://picsum.photos/seed/liq-40-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-40-2/600/600)"
+    ],
+    "name": {
+      "ko": "디사론노 아마레또",
+      "en": "Disaronno Originale Amaretto",
+      "ja": "ディサローノ アマレット"
+    },
+    "description": {
+      "ko": "아몬드와 살구씨의 달콤하고 고소한 향이 특징인 이탈리아 대표 아마레또 리큐르입니다.",
+      "en": "The iconic Italian amaretto known for its sweet and nutty almond and apricot kernel profile.",
+      "ja": "アーモンドと杏仁の甘く香ばしい香りが特徴。イタリアを代表するアマレットです。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Sazerac",
+    "price": 6800,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "rye-whiskey",
+      "new-orleans",
+      "cocktail-classic",
+      "spicy"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-41-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-41-1/600/600)",
+      "[https://picsum.photos/seed/liq-41-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-41-2/600/600)"
+    ],
+    "name": {
+      "ko": "사제락 라이 위스키",
+      "en": "Sazerac Rye Whiskey",
+      "ja": "サゼラック ライ"
+    },
+    "description": {
+      "ko": "뉴올리언스의 역사를 담은 위스키로, 사제락 칵테일을 만드는 정석적인 베이스입니다.",
+      "en": "Infused with New Orleans history, the definitive base for crafting a Sazerac cocktail.",
+      "ja": "ニューオーリンズの歴史を湛えるウイスキー。カクテル「サゼラック」の正統なベース。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "tequila",
+    "brand": "Espolon",
+    "price": 4500,
+    "stock": 30,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "blanco",
+      "highland",
+      "100-agave",
+      "artistic"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-42-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-42-1/600/600)",
+      "[https://picsum.photos/seed/liq-42-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-42-2/600/600)"
+    ],
+    "name": {
+      "ko": "에스폴론 블랑코",
+      "en": "Espolon Blanco Tequila",
+      "ja": "エスポロン ブランコ"
+    },
+    "description": {
+      "ko": "순수한 아가베의 향을 간직한 가성비 최고의 프리미엄 테킬라입니다.",
+      "en": "A top-tier premium tequila offering pure agave flavor at an excellent value.",
+      "ja": "純粋なアガベの香りを保持した、コストパフォーマンスに優れたプレミアムテキーラ。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "gin",
+    "brand": "Beefeater",
+    "price": 2400,
+    "stock": 80,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "london-dry",
+      "classic",
+      "standard",
+      "juniper"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-43-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-43-1/600/600)",
+      "[https://picsum.photos/seed/liq-43-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-43-2/600/600)"
+    ],
+    "name": {
+      "ko": "비피터 런던 드라이 진",
+      "en": "Beefeater London Dry Gin",
+      "ja": "ビーフィーター ロンドン ドライジン"
+    },
+    "description": {
+      "ko": "런던 드라이 진의 전형을 보여주는 밸런스 좋은 진으로 진토닉에 가장 추천합니다.",
+      "en": "A well-balanced quintessential London dry gin, highly recommended for Gin & Tonics.",
+      "ja": "ロンドンドライジンの典型とも言えるバランスの良いジン。ジントニックに最適です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "liqueur",
+    "brand": "St-Germain",
+    "price": 4800,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "elderflower",
+      "france",
+      "floral",
+      "premium-liqueur"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-44-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-44-1/600/600)",
+      "[https://picsum.photos/seed/liq-44-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-44-2/600/600)"
+    ],
+    "name": {
+      "ko": "생 제르망 엘더플라워",
+      "en": "St-Germain Elderflower Liqueur",
+      "ja": "サンジェルマン エルダーフラワー リキュール"
+    },
+    "description": {
+      "ko": "신선한 엘더플라워 꽃잎으로 만든 프랑스산 리큐르로, '바텐더의 케첩'이라 불릴 만큼 활용도가 높습니다.",
+      "en": "Crafted from fresh elderflower petals, highly versatile and often called 'bartender’s ketchup'.",
+      "ja": "フレッシュなエルダーフラワーから作られるリキュール。「バーテンダーのケチャップ」と呼ばれるほど重宝されます。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Lagavulin",
+    "price": 13500,
+    "stock": 5,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "islay",
+      "rich-peat",
+      "long-finish",
+      "classic-malt"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-45-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-45-1/600/600)",
+      "[https://picsum.photos/seed/liq-45-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-45-2/600/600)"
+    ],
+    "name": {
+      "ko": "라가불린 16년",
+      "en": "Lagavulin 16 Year Old",
+      "ja": "ラガヴーリン 16年"
+    },
+    "description": {
+      "ko": "강렬한 피트와 말린 과일의 단맛이 완벽하게 결합된 아일라 최고의 클래식 몰트입니다.",
+      "en": "A classic Islay malt featuring an impeccable combination of intense peat and dried fruit sweetness.",
+      "ja": "強烈なピートとドライフルーツの甘みが完璧に融合した、アイラ島屈指のクラシックモルト。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Elijah Craig",
+    "price": 5500,
+    "stock": 18,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "small-batch",
+      "bourbon",
+      "oak",
+      "spicy"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-46-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-46-1/600/600)",
+      "[https://picsum.photos/seed/liq-46-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-46-2/600/600)"
+    ],
+    "name": {
+      "ko": "엘라이저 크레이그 스몰 배치",
+      "en": "Elijah Craig Small Batch",
+      "ja": "エライジャ・クレイグ スモールバッチ"
+    },
+    "description": {
+      "ko": "버번의 아버지라 불리는 브랜드로, 깊은 오크 향과 스파이시한 여운이 매력적입니다.",
+      "en": "Named after the father of bourbon, featuring deep oak aromas and a satisfying spicy finish.",
+      "ja": "バーボンの父と称されるブランド。深いオークの香りとスパイシーな余韻が魅力です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "vodka",
+    "brand": "Stolichnaya",
+    "price": 2400,
+    "stock": 50,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "latvia",
+      "classic-vodka",
+      "smooth",
+      "mixable"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-47-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-47-1/600/600)",
+      "[https://picsum.photos/seed/liq-47-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-47-2/600/600)"
+    ],
+    "name": {
+      "ko": "스톨리치나야 오리지널",
+      "en": "Stolichnaya Original Vodka",
+      "ja": "ストリチナヤ オリジナル"
+    },
+    "description": {
+      "ko": "고전적인 보드카의 정석. 깨끗하고 중립적인 맛으로 모든 베이스에 적합합니다.",
+      "en": "The gold standard for classic vodka. Clean and neutral, perfect for all mixed drinks.",
+      "ja": "クラシックウォッカの代名詞。クリーンでニュートラルな味わいは、あらゆるベースに適しています。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "liqueur",
+    "brand": "Fernet-Branca",
+    "price": 3800,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "amaro",
+      "italy",
+      "herbal-bitter",
+      "digestif"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-48-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-48-1/600/600)",
+      "[https://picsum.photos/seed/liq-48-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-48-2/600/600)"
+    ],
+    "name": {
+      "ko": "페르넷 브랑카",
+      "en": "Fernet-Branca Amaro",
+      "ja": "フェルネット・ブランカ"
+    },
+    "description": {
+      "ko": "전 세계 바텐더들이 즐겨 마시는 '바텐더의 악수'. 강렬한 허브와 민트 향의 이탈리아 아마로입니다.",
+      "en": "Known as the 'bartender’s handshake', this Italian amaro features intense herbal and mint notes.",
+      "ja": "世界中のバーテンダーが愛飲する「バーテンダーの握手」。強烈なハーブとミントの香りのアマーロ。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "tequila",
+    "brand": "Casamigos",
+    "price": 9800,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "anejo",
+      "hollywood",
+      "smooth",
+      "high-end"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-49-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-49-1/600/600)",
+      "[https://picsum.photos/seed/liq-49-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-49-2/600/600)"
+    ],
+    "name": {
+      "ko": "카사미고스 아네호",
+      "en": "Casamigos Añejo Tequila",
+      "ja": "カーサミーゴス アニェホ"
+    },
+    "description": {
+      "ko": "14개월간 숙성되어 캐러멜과 바닐라의 풍미가 극대화된 울트라 프리미엄 아네호입니다.",
+      "en": "Aged for 14 months, an ultra-premium añejo with maximized caramel and vanilla notes.",
+      "ja": "14ヶ月間熟成。キャラメルとバニラの風味が最大限に引き出されたウルトラプレミアムなアニェホ。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Talisker",
+    "price": 7500,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "island",
+      "peppery",
+      "maritime",
+      "smoky"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-50-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-50-1/600/600)",
+      "[https://picsum.photos/seed/liq-50-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-50-2/600/600)"
+    ],
+    "name": {
+      "ko": "탈리스커 10년",
+      "en": "Talisker 10 Year Old",
+      "ja": "タリスカー 10年"
+    },
+    "description": {
+      "ko": "바다의 짠맛과 강렬한 후추 향이 공존하는 스카이 섬의 대표 싱글 몰트입니다.",
+      "en": "The definitive Isle of Skye malt, where maritime saltiness meets intense peppery notes.",
+      "ja": "海の潮風と強烈な黒胡椒の香りが共存する、スカイ島を代表するシングルモルト。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "liqueur",
+    "brand": "Grand Marnier",
+    "price": 4500,
+    "stock": 30,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "cognac-based",
+      "orange-liqueur",
+      "france",
+      "premium"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-51-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-51-1/600/600)",
+      "[https://picsum.photos/seed/liq-51-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-51-2/600/600)"
+    ],
+    "name": {
+      "ko": "그랑 마르니에",
+      "en": "Grand Marnier Cordon Rouge",
+      "ja": "グラン マルニエ コルドン ルージュ"
+    },
+    "description": {
+      "ko": "고급 코냑과 오렌지 에센스가 결합되어 깊고 풍부한 맛을 내는 프리미엄 리큐르입니다.",
+      "en": "A premium liqueur combining fine cognac and orange essence for a deep, rich flavor.",
+      "ja": "高級コニャックとオレンジのエッセンスが融合。深く豊かな味わいのプレミアムリキュール。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "rum",
+    "brand": "Goslings",
+    "price": 3200,
+    "stock": 35,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "black-rum",
+      "bermuda",
+      "dark-n-stormy",
+      "rich"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-52-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-52-1/600/600)",
+      "[https://picsum.photos/seed/liq-52-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-52-2/600/600)"
+    ],
+    "name": {
+      "ko": "고슬링 블랙 씰 럼",
+      "en": "Goslings Black Seal Rum",
+      "ja": "ゴズリングス ブラックシール ラム"
+    },
+    "description": {
+      "ko": "버뮤다의 다크 앤 스토미 칵테일에 반드시 필요한 묵직하고 달콤한 블랙 럼입니다.",
+      "en": "The essential heavy and sweet black rum for Bermuda’s 'Dark 'n Stormy' cocktail.",
+      "ja": "バミューダ発祥のカクテル「ダーク＆ストーミー」に不可欠な、重厚で甘いブラックラム。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Monkey Shoulder",
+    "price": 4800,
+    "stock": 60,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "blended-malt",
+      "smooth",
+      "cocktail-friendly",
+      "vanilla"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-53-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-53-1/600/600)",
+      "[https://picsum.photos/seed/liq-53-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-53-2/600/600)"
+    ],
+    "name": {
+      "ko": "몽키 숄더",
+      "en": "Monkey Shoulder Blended Malt",
+      "ja": "モンキー ショルダー"
+    },
+    "description": {
+      "ko": "세 가지 싱글 몰트를 블렌딩하여 부드럽고 달콤하며, 위스키 기반 칵테일에 최적입니다.",
+      "en": "A blend of three single malts, smooth and sweet, perfect for whiskey-based cocktails.",
+      "ja": "3種類のシングルモルトをブレンド。滑らかで甘く、ウイスキーカクテルに最適です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "tequila",
+    "brand": "Herradura",
+    "price": 6500,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "reposado",
+      "traditional",
+      "mexico",
+      "earthy"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-54-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-54-1/600/600)",
+      "[https://picsum.photos/seed/liq-54-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-54-2/600/600)"
+    ],
+    "name": {
+      "ko": "에라두라 레포사도",
+      "en": "Herradura Reposado Tequila",
+      "ja": "エラドゥーラ レポサド"
+    },
+    "description": {
+      "ko": "전통적인 방식으로 생산되어 흙 내음과 아가베 본연의 풍미가 잘 살아있는 테킬라입니다.",
+      "en": "Traditionally produced tequila that maintains earthy notes and authentic agave flavor.",
+      "ja": "伝統的な製法で生産され、大地の香りとアガベ本来の風味が生きているテキーラ。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "gin",
+    "brand": "Plymouth",
+    "price": 3500,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "plymouth-style",
+      "uk",
+      "soft-juniper",
+      "classic"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-55-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-55-1/600/600)",
+      "[https://picsum.photos/seed/liq-55-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-55-2/600/600)"
+    ],
+    "name": {
+      "ko": "플리머스 진",
+      "en": "Plymouth Original Gin",
+      "ja": "プリマス ジン"
+    },
+    "description": {
+      "ko": "런던 드라이보다 부드럽고 흙 내음이 나는 독자적인 스타일의 진입니다.",
+      "en": "A unique style of gin, softer and earthier than typical London Dry gins.",
+      "ja": "ロンドンドライより滑らかで大地の香りを感じさせる、独自スタイルのジン。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Crown Royal",
+    "price": 3800,
+    "stock": 45,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "canadian-whiskey",
+      "smooth",
+      "blended",
+      "iconic"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-56-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-56-1/600/600)",
+      "[https://picsum.photos/seed/liq-56-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-56-2/600/600)"
+    ],
+    "name": {
+      "ko": "크라운 로얄",
+      "en": "Crown Royal Canadian Whisky",
+      "ja": "クラウン ローヤル"
+    },
+    "description": {
+      "ko": "캐나다를 대표하는 위스키로, 매우 부드럽고 가벼운 바닐라 향이 특징입니다.",
+      "en": "The definitive Canadian whisky, known for its exceptional smoothness and light vanilla notes.",
+      "ja": "カナダを代表するウイスキー。非常に滑らかで、軽やかなバニラの香りが特徴です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "liqueur",
+    "brand": "Luxardo",
+    "price": 4200,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "maraschino",
+      "italy",
+      "cherry-liqueur",
+      "classic-cocktail"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-57-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-57-1/600/600)",
+      "[https://picsum.photos/seed/liq-57-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-57-2/600/600)"
+    ],
+    "name": {
+      "ko": "룩사르도 마라스키노",
+      "en": "Luxardo Maraschino Liqueur",
+      "ja": "ルクサルド マラスキーノ"
+    },
+    "description": {
+      "ko": "마라스카 체리를 증류하여 만든 리큐르로, '에비에이션' 칵테일에 필수입니다.",
+      "en": "Distilled from Marasca cherries, an essential ingredient for an 'Aviation' cocktail.",
+      "ja": "マラスカチェリーを蒸留して作られたリキュール。カクテル「アビエーション」に必須。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "whiskey",
+    "brand": "Knob Creek",
+    "price": 6200,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "bourbon",
+      "9-year",
+      "full-bodied",
+      "rich"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-58-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-58-1/600/600)",
+      "[https://picsum.photos/seed/liq-58-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-58-2/600/600)"
+    ],
+    "name": {
+      "ko": "놉 크릭 9년",
+      "en": "Knob Creek 9 Year Old Bourbon",
+      "ja": "ノブ クリーク 9年"
+    },
+    "description": {
+      "ko": "장기 숙성을 통해 얻은 깊은 나무 향과 풍부한 단맛을 가진 풀바디 버번입니다.",
+      "en": "A full-bodied bourbon with deep woody notes and rich sweetness from long aging.",
+      "ja": "長期熟成により得られた深いウッド香と豊かな甘みを持つ、フルボディなバーボン。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "rum",
+    "brand": "Mount Gay",
+    "price": 3800,
+    "stock": 30,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "barbados",
+      "heritage",
+      "aged-rum",
+      "balanced"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-59-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-59-1/600/600)",
+      "[https://picsum.photos/seed/liq-59-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-59-2/600/600)"
+    ],
+    "name": {
+      "ko": "마운트 게이 블랙 배럴",
+      "en": "Mount Gay Black Barrel Rum",
+      "ja": "マウントゲイ ブラックバレル"
+    },
+    "description": {
+      "ko": "세계에서 가장 오래된 럼 증류소의 제품으로, 그을린 배럴에서 오는 스모키한 마무리가 일품입니다.",
+      "en": "From the world's oldest rum distillery, featuring a superb smoky finish from charred barrels.",
+      "ja": "世界最古のラム蒸留所の製品。焦がした樽由来のスモーキーなフィニッシュが絶品です。"
+    }
+  },
+  {
+    "category": "liquor",
+    "subcategory": "triple-sec",
+    "brand": "Combier",
+    "price": 4000,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "triple-sec",
+      "france",
+      "original",
+      "citrus"
+    ],
+    "images": [
+      "[https://picsum.photos/seed/liq-60-1/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-60-1/600/600)",
+      "[https://picsum.photos/seed/liq-60-2/600/600](https://www.google.com/search?q=https://picsum.photos/seed/liq-60-2/600/600)"
+    ],
+    "name": {
+      "ko": "콤비에르 오리지널 트리플 섹",
+      "en": "Combier L'Original Triple Sec",
+      "ja": "コンビエール トリプルセック"
+    },
+    "description": {
+      "ko": "1834년 세계 최초로 만들어진 트리플 섹으로, 매우 순수하고 깔끔한 오렌지 향을 자랑합니다.",
+      "en": "The world's first triple sec, created in 1834, boasting a very pure and clean orange aroma.",
+      "ja": "1834年に世界で初めて作られたトリプルセック。非常に純粋でクリーンなオレンジの香り。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "Angostura",
+    "price": 2800,
+    "stock": 45,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "aromatic",
+      "essential",
+      "classic",
+      "botanical"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-001-1/600/600",
+      "https://picsum.photos/seed/ing-001-2/600/600"
+    ],
+    "name": {
+      "ko": "앙고스투라 아로마틱 비터스",
+      "en": "Angostura Aromatic Bitters",
+      "ja": "アンゴスチュラ・アロマティック・ビターズ"
+    },
+    "description": {
+      "ko": "칵테일의 풍미를 완성하는 바텐더의 필수 아이템입니다.",
+      "en": "An essential bartender's item that completes the flavor profile of cocktails.",
+      "ja": "カクテルの風味を完成させるバーテンダーの必須アイテムです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "sugar-syrup",
+    "brand": "Monin",
+    "price": 1200,
+    "stock": 80,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "sweetener",
+      "pure-cane",
+      "versatile",
+      "standard"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-002-1/600/600",
+      "https://picsum.photos/seed/ing-002-2/600/600",
+      "https://picsum.photos/seed/ing-002-3/600/600"
+    ],
+    "name": {
+      "ko": "모닌 순수 사탕수수 시럽",
+      "en": "Monin Pure Cane Sugar Syrup",
+      "ja": "モナン シュガー・シロップ"
+    },
+    "description": {
+      "ko": "부드러운 단맛과 뛰어난 용해성을 가진 전문가용 시럽입니다.",
+      "en": "Professional syrup with smooth sweetness and excellent solubility.",
+      "ja": "滑らかな甘さと優れた溶解性を持つプロ仕様のシロップです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lime",
+    "brand": "Fresh-Pick",
+    "price": 1500,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "citrus",
+      "fresh",
+      "organic",
+      "zesty"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-003-1/600/600",
+      "https://picsum.photos/seed/ing-003-2/600/600"
+    ],
+    "name": {
+      "ko": "유기농 생 라임 (1kg)",
+      "en": "Organic Fresh Lime (1kg)",
+      "ja": "オーガニック生ライム (1kg)"
+    },
+    "description": {
+      "ko": "신선하고 산미가 풍부하여 가니쉬와 쥬스용으로 최적입니다.",
+      "en": "Fresh and acidic, perfect for garnishes and fresh juice.",
+      "ja": "新鮮で酸味が豊富、ガーニッシュやジュースに最適です。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lemon",
+    "brand": "Fresh-Pick",
+    "price": 1200,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "citrus",
+      "bright",
+      "juice",
+      "garnish"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-004-1/600/600",
+      "https://picsum.photos/seed/ing-004-2/600/600"
+    ],
+    "name": {
+      "ko": "썬키스트 고품질 레몬 (1kg)",
+      "en": "Premium Sunkist Lemon (1kg)",
+      "ja": "プレミアムサンキストレモン (1kg)"
+    },
+    "description": {
+      "ko": "일정한 산도와 풍부한 과즙을 자랑하는 바 표준 레몬입니다.",
+      "en": "Bar-standard lemons with consistent acidity and rich juice.",
+      "ja": "一定の酸度と豊富な果汁を誇るバースタンダードなレモンです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "tonic-water",
+    "brand": "Fever-Tree",
+    "price": 4500,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "premium",
+      "mixer",
+      "quinine",
+      "natural"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-005-1/600/600",
+      "https://picsum.photos/seed/ing-005-2/600/600",
+      "https://picsum.photos/seed/ing-005-3/600/600"
+    ],
+    "name": {
+      "ko": "피버트리 프리미엄 토닉워터 (24캔)",
+      "en": "Fever-Tree Premium Tonic Water (24 cans)",
+      "ja": "フィーバーツリー プレミアム トニックウォーター (24缶)"
+    },
+    "description": {
+      "ko": "천연 퀴닌을 사용하여 진과의 완벽한 조화를 이룹니다.",
+      "en": "Made with natural quinine for a perfect pairing with gin.",
+      "ja": "天然キニーネを使用し、ジンとの完璧な調和を実現します。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "apple-puree",
+    "brand": "Giffard",
+    "price": 2200,
+    "stock": 0,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "fruit",
+      "texture",
+      "cocktail-base",
+      "rich"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-006-1/600/600",
+      "https://picsum.photos/seed/ing-006-2/600/600"
+    ],
+    "name": {
+      "ko": "지파드 애플 퓌레",
+      "en": "Giffard Apple Puree",
+      "ja": "ジファール アップルピューレ"
+    },
+    "description": {
+      "ko": "신선한 사과의 질감과 달콤함을 그대로 담았습니다.",
+      "en": "Captures the texture and sweetness of fresh apples.",
+      "ja": "新鮮なリンゴの質感と甘さをそのまま閉じ込めました。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "soda-water",
+    "brand": "Perrier",
+    "price": 3800,
+    "stock": 50,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "carbonated",
+      "sparkling",
+      "clean",
+      "highball"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-007-1/600/600",
+      "https://picsum.photos/seed/ing-007-2/600/600"
+    ],
+    "name": {
+      "ko": "페리에 탄산수 (24병)",
+      "en": "Perrier Sparkling Water (24 bottles)",
+      "ja": "ペリエ 炭酸水 (24本)"
+    },
+    "description": {
+      "ko": "강한 탄산감으로 하이볼의 청량감을 극대화합니다.",
+      "en": "Maximizes the refreshment of highballs with strong carbonation.",
+      "ja": "強い炭酸感でハイボールの清涼感を最大限に引き出します。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "Fee Brothers",
+    "price": 3200,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "orange",
+      "citrus",
+      "flavoring",
+      "crafted"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-008-1/600/600",
+      "https://picsum.photos/seed/ing-008-2/600/600"
+    ],
+    "name": {
+      "ko": "피 브라더스 오렌지 비터스",
+      "en": "Fee Brothers Orange Bitters",
+      "ja": "フィーブラザーズ オレンジビターズ"
+    },
+    "description": {
+      "ko": "복합적인 오렌지 풍미가 클래식 칵테일에 깊이를 더합니다.",
+      "en": "Complex orange flavor adds depth to classic cocktails.",
+      "ja": "複雑なオレンジの風味がクラシックカクテルに深みを与えます。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "sugar-syrup",
+    "brand": "Homemade-Style",
+    "price": 1800,
+    "stock": 30,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "syrup",
+      "rich",
+      "simple",
+      "bar-base"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-009-1/600/600",
+      "https://picsum.photos/seed/ing-009-2/600/600"
+    ],
+    "name": {
+      "ko": "리치 심플 시럽 (2:1)",
+      "en": "Rich Simple Syrup (2:1)",
+      "ja": "リッチ・シンプルシロップ (2:1)"
+    },
+    "description": {
+      "ko": "고농축 설탕 시럽으로 칵테일의 바디감을 살려줍니다.",
+      "en": "High-concentration syrup that enhances the body of cocktails.",
+      "ja": "高濃度のシュガーシロップで、カクテルのボディ感を引き立てます。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lime",
+    "brand": "Citrus-Pro",
+    "price": 1800,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "frozen",
+      "juice",
+      "convenient",
+      "sour"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-010-1/600/600",
+      "https://picsum.photos/seed/ing-010-2/600/600"
+    ],
+    "name": {
+      "ko": "급속 냉동 라임 쥬스 (1L)",
+      "en": "Quick Frozen Lime Juice (1L)",
+      "ja": "急速冷凍ライムジュース (1L)"
+    },
+    "description": {
+      "ko": "착즙 직후 급속 냉동하여 신선한 산미가 유지됩니다.",
+      "en": "Flash-frozen after pressing to maintain fresh acidity.",
+      "ja": "搾汁直後に急速冷凍し、新鮮な酸味を維持しています。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lemon",
+    "brand": "Citrus-Pro",
+    "price": 1600,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "lemon-juice",
+      "bulk",
+      "natural",
+      "bartending"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-011-1/600/600",
+      "https://picsum.photos/seed/ing-011-2/600/600"
+    ],
+    "name": {
+      "ko": "100% 순수 레몬 즙 (1L)",
+      "en": "100% Pure Lemon Juice (1L)",
+      "ja": "100% 純粋レモン果汁 (1L)"
+    },
+    "description": {
+      "ko": "첨가물 없는 순수 레몬 즙으로 효율적인 바 운영을 돕습니다.",
+      "en": "Pure lemon juice without additives for efficient bar operation.",
+      "ja": "添加物なしの純粋なレモン汁で、効率的なバー運営をサポートします。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "tonic-water",
+    "brand": "Schweppes",
+    "price": 2500,
+    "stock": 60,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "reliable",
+      "classic",
+      "mixer",
+      "value"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-012-1/600/600",
+      "https://picsum.photos/seed/ing-012-2/600/600"
+    ],
+    "name": {
+      "ko": "슈웹스 토닉워터 (30캔)",
+      "en": "Schweppes Tonic Water (30 cans)",
+      "ja": "シュウェップス トニックウォーター (30缶)"
+    },
+    "description": {
+      "ko": "전 세계 바에서 가장 널리 사용되는 표준 토닉워터입니다.",
+      "en": "The most widely used standard tonic water in bars worldwide.",
+      "ja": "世界中のバーで最も広く使用されている標準的なトニックウォーターです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "soda-water",
+    "brand": "Singha",
+    "price": 2200,
+    "stock": 40,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "strong-fizz",
+      "mixing",
+      "high-carbonation",
+      "thai"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-013-1/600/600",
+      "https://picsum.photos/seed/ing-013-2/600/600"
+    ],
+    "name": {
+      "ko": "싱하 탄산수 (24병)",
+      "en": "Singha Soda Water (24 bottles)",
+      "ja": "シンハー ソーダウォーター (24本)"
+    },
+    "description": {
+      "ko": "강력한 탄산 유지력으로 하이볼 매니아들에게 인기입니다.",
+      "en": "Popular among highball fans for its powerful carbonation retention.",
+      "ja": "強力な炭酸維持力で、ハイボール愛好家に人気です。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "apple-puree",
+    "brand": "Monin",
+    "price": 2400,
+    "stock": 18,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "granny-smith",
+      "green-apple",
+      "tart",
+      "syrupy"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-014-1/600/600",
+      "https://picsum.photos/seed/ing-014-2/600/600"
+    ],
+    "name": {
+      "ko": "모닌 그린애플 퓌레",
+      "en": "Monin Green Apple Puree",
+      "ja": "モナン グリーンアップル・ピューレ"
+    },
+    "description": {
+      "ko": "청사과의 상큼하고 달콤한 맛이 칵테일에 생기를 부여합니다.",
+      "en": "The tart and sweet taste of green apples brings life to cocktails.",
+      "ja": "青リンゴの爽やかで甘酸っぱい味がカクテルに活気を与えます。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "The Bitter Truth",
+    "price": 3500,
+    "stock": 8,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "celery",
+      "unique",
+      "savory",
+      "award-winning"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-015-1/600/600",
+      "https://picsum.photos/seed/ing-015-2/600/600"
+    ],
+    "name": {
+      "ko": "비터 트루스 셀러리 비터스",
+      "en": "The Bitter Truth Celery Bitters",
+      "ja": "ビタートゥルース セロリビターズ"
+    },
+    "description": {
+      "ko": "독특한 풍미로 마티니나 블러디 메리에 변화를 줍니다.",
+      "en": "Adds a unique twist to Martinis or Bloody Marys with its distinct flavor.",
+      "ja": "独特な風味でマティーニやブラッディ・メアリーに変化を与えます。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "sugar-syrup",
+    "brand": "Giffard",
+    "price": 1400,
+    "stock": 55,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "gum-syrup",
+      "texture",
+      "smooth",
+      "french"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-016-1/600/600",
+      "https://picsum.photos/seed/ing-016-2/600/600"
+    ],
+    "name": {
+      "ko": "지파드 껌 시럽",
+      "en": "Giffard Gum Syrup",
+      "ja": "ジファール ガムシロップ"
+    },
+    "description": {
+      "ko": "아라비아 검이 함유되어 입안에서 느껴지는 질감을 개선합니다.",
+      "en": "Contains gum arabic to improve the mouthfeel of cocktails.",
+      "ja": "アラビアガムが含まれており、口当たりを滑らかにします。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lime",
+    "brand": "Premium-Fruit",
+    "price": 2000,
+    "stock": 5,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "key-lime",
+      "aromatic",
+      "rare",
+      "citrus"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-017-1/600/600",
+      "https://picsum.photos/seed/ing-017-2/600/600"
+    ],
+    "name": {
+      "ko": "고급 키라임 (500g)",
+      "en": "Premium Key Lime (500g)",
+      "ja": "プレミアムキーライム (500g)"
+    },
+    "description": {
+      "ko": "일반 라임보다 향이 강하고 산미가 날카로운 희귀 라임입니다.",
+      "en": "A rare lime with a stronger aroma and sharper acidity than regular limes.",
+      "ja": "普通のライムより香りが強く、酸味が鋭い希少なライムです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lemon",
+    "brand": "Sicily-Select",
+    "price": 2500,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "sicilian",
+      "premium",
+      "aromatic",
+      "gourmet"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-018-1/600/600",
+      "https://picsum.photos/seed/ing-018-2/600/600"
+    ],
+    "name": {
+      "ko": "시칠리아산 프리미엄 레몬",
+      "en": "Sicilian Premium Lemon",
+      "ja": "シチリア産プレミアムレモン"
+    },
+    "description": {
+      "ko": "이탈리아 시칠리아의 햇살을 머금은 최상급 레몬입니다.",
+      "en": "Top-quality lemons grown under the Sicilian sun in Italy.",
+      "ja": "イタリア・シチリアの太陽を浴びた最高級レモンです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "tonic-water",
+    "brand": "East-Imperial",
+    "price": 5500,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "artisan",
+      "historical",
+      "botanical",
+      "luxury"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-019-1/600/600",
+      "https://picsum.photos/seed/ing-019-2/600/600"
+    ],
+    "name": {
+      "ko": "이스트 임페리얼 토닉 (24병)",
+      "en": "East Imperial Tonic (24 bottles)",
+      "ja": "イーストインペリアル トニック (24本)"
+    },
+    "description": {
+      "ko": "1903년 전통 레시피로 만든 장인 정신이 깃든 토닉입니다.",
+      "en": "Artisan tonic water made from a traditional 1903 recipe.",
+      "ja": "1903年の伝統的なレシピで作られた、職人魂の宿るトニックです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "soda-water",
+    "brand": "Wilkinson",
+    "price": 2800,
+    "stock": 45,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "japanese",
+      "crisp",
+      "bartender-choice",
+      "sharp"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-020-1/600/600",
+      "https://picsum.photos/seed/ing-020-2/600/600"
+    ],
+    "name": {
+      "ko": "윌킨슨 탄산수 (24병)",
+      "en": "Wilkinson Tansansui (24 bottles)",
+      "ja": "ウィルキンソン タンサン (24本)"
+    },
+    "description": {
+      "ko": "일본 바텐더들이 가장 선호하는 깔끔한 뒷맛의 탄산수입니다.",
+      "en": "Preferred by Japanese bartenders for its clean finish.",
+      "ja": "日本のバーテンダーが最も好む、キレのある後味の炭산水です。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "apple-puree",
+    "brand": "Capfruit",
+    "price": 3200,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "professional",
+      "natural-flavor",
+      "gourmet",
+      "frozen"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-021-1/600/600",
+      "https://picsum.photos/seed/ing-021-2/600/600"
+    ],
+    "name": {
+      "ko": "캡프루트 사과 냉동 퓌레",
+      "en": "Capfruit Apple Frozen Puree",
+      "ja": "キャップフリュイ リンゴ冷凍ピューレ"
+    },
+    "description": {
+      "ko": "설탕 무첨가로 원과 본연의 맛을 살린 전문가용 퓌레입니다.",
+      "en": "Professional puree with no added sugar, preserving natural fruit flavor.",
+      "ja": "無加糖で果実本来の味を活かしたプロ仕様のピューレです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "Regans'",
+    "price": 2900,
+    "stock": 14,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "orange",
+      "spicy",
+      "modern-classic",
+      "bartending"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-022-1/600/600",
+      "https://picsum.photos/seed/ing-022-2/600/600"
+    ],
+    "name": {
+      "ko": "리건스 오렌지 비터 No.6",
+      "en": "Regans' Orange Bitters No.6",
+      "ja": "リーガンス オレンジビター No.6"
+    },
+    "description": {
+      "ko": "가리 쿠즈번이 개발한 스파이시한 오렌지 비터입니다.",
+      "en": "A spicy orange bitters developed by Gary Gaz Regan.",
+      "ja": "ゲーリー・リーガンが開発したスパイシーなオレンジビターです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "sugar-syrup",
+    "brand": "Bols",
+    "price": 1100,
+    "stock": 70,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "affordable",
+      "standard",
+      "mixing",
+      "cocktail-essential"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-023-1/600/600",
+      "https://picsum.photos/seed/ing-023-2/600/600"
+    ],
+    "name": {
+      "ko": "볼스 심플 시럽",
+      "en": "Bols Simple Syrup",
+      "ja": "ボルス シュガーシロップ"
+    },
+    "description": {
+      "ko": "가성비가 뛰어나 대중적인 바 운영에 적합합니다.",
+      "en": "Excellent value for money, suitable for high-volume bars.",
+      "ja": "コストパフォーマンスに優れ、一般的なバー運営に適しています。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "Peychaud's",
+    "price": 3100,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "creole",
+      "sazerac",
+      "anise",
+      "floral"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-024-1/600/600",
+      "https://picsum.photos/seed/ing-024-2/600/600"
+    ],
+    "name": {
+      "ko": "페이쇼드 비터스",
+      "en": "Peychaud's Bitters",
+      "ja": "ペイショーズ ビターズ"
+    },
+    "description": {
+      "ko": "사제락 칵테일에 없어서는 안 될 크리올 스타일 비터입니다.",
+      "en": "An essential Creole-style bitters for the Sazerac cocktail.",
+      "ja": "サゼラック・カクテルに欠かせないクレオール・スタイルのビターズです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lemon",
+    "brand": "Zest-Master",
+    "price": 900,
+    "stock": 35,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "economy",
+      "bulk",
+      "juice-only",
+      "citrus"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-025-1/600/600",
+      "https://picsum.photos/seed/ing-025-2/600/600"
+    ],
+    "name": {
+      "ko": "대용량 업소용 레몬 (3kg)",
+      "en": "Bulk Commercial Lemon (3kg)",
+      "ja": "業務用大容量レモン (3kg)"
+    },
+    "description": {
+      "ko": "대량의 주스 제조가 필요한 바를 위한 경제적인 선택입니다.",
+      "en": "An economical choice for bars needing large quantities of juice.",
+      "ja": "大量のジュース製造が必要なバーのための経済的な選択肢です。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lime",
+    "brand": "Zest-Master",
+    "price": 4200,
+    "stock": 18,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "bulk",
+      "mexican",
+      "fresh-stock",
+      "acidic"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-026-1/600/600",
+      "https://picsum.photos/seed/ing-026-2/600/600"
+    ],
+    "name": {
+      "ko": "멕시코산 생 라임 (3kg 박스)",
+      "en": "Mexican Fresh Lime (3kg Box)",
+      "ja": "メキシコ産生ライム (3kgケース)"
+    },
+    "description": {
+      "ko": "최상의 선도를 가진 멕시코산 라임을 박스 단위로 공급합니다.",
+      "en": "Fresh Mexican limes supplied by the box for peak freshness.",
+      "ja": "最高の鮮度を持つメキシコ産ライムをケース単位で提供します。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "sugar-syrup",
+    "brand": "Monin",
+    "price": 1500,
+    "stock": 30,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "rich-simple",
+      "stable",
+      "professional",
+      "sweet"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-027-1/600/600",
+      "https://picsum.photos/seed/ing-027-2/600/600"
+    ],
+    "name": {
+      "ko": "모닌 리치 심플 시럽",
+      "en": "Monin Rich Simple Syrup",
+      "ja": "モナン リッチシュガーシロップ"
+    },
+    "description": {
+      "ko": "설탕 함량이 높아 적은 양으로도 깊은 단맛을 냅니다.",
+      "en": "High sugar content provides deep sweetness with a small amount.",
+      "ja": "砂糖含有量が高く、少量でも深い甘みを出せます。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "apple-puree",
+    "brand": "Boiron",
+    "price": 3800,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "premium-puree",
+      "french",
+      "fruit-mix",
+      "high-end"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-028-1/600/600",
+      "https://picsum.photos/seed/ing-028-2/600/600"
+    ],
+    "name": {
+      "ko": "브아롱 사과 냉동 퓌레",
+      "en": "Boiron Apple Frozen Puree",
+      "ja": "ボワロン リンゴ冷凍ピューレ"
+    },
+    "description": {
+      "ko": "세계적인 셰프와 바텐더들이 사용하는 프리미엄 퓌레입니다.",
+      "en": "Premium puree used by world-class chefs and bartenders.",
+      "ja": "世界的なシェフやバーテンダーが使用するプレミアムピューレです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "tonic-water",
+    "brand": "Thomas-Henry",
+    "price": 4800,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "german",
+      "balanced",
+      "bitter",
+      "quality"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-029-1/600/600",
+      "https://picsum.photos/seed/ing-029-2/600/600"
+    ],
+    "name": {
+      "ko": "토마스 헨리 토닉워터 (24병)",
+      "en": "Thomas Henry Tonic Water (24 bottles)",
+      "ja": "トーマス・ヘンリー トニックウォーター (24本)"
+    },
+    "description": {
+      "ko": "독일의 정교함이 담긴 균형 잡힌 맛의 토닉워터입니다.",
+      "en": "A balanced tonic water embodying German precision.",
+      "ja": "ドイツの精巧さが込められたバランスの良い味のトニックウォーターです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "soda-water",
+    "brand": "Canadian-Club",
+    "price": 3500,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "mixer",
+      "whisky-partner",
+      "classic",
+      "sparkling"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-030-1/600/600",
+      "https://picsum.photos/seed/ing-030-2/600/600"
+    ],
+    "name": {
+      "ko": "캐나디안 클럽 클럽소다",
+      "en": "Canadian Club Club Soda",
+      "ja": "カナディアンクラブ クラブソーダ"
+    },
+    "description": {
+      "ko": "위스키 본연의 향을 방해하지 않는 깔끔한 소다워터입니다.",
+      "en": "A clean soda water that doesn't interfere with the whisky's aroma.",
+      "ja": "ウィスキー本来の香りを邪魔しない、クリーンなソーダウォーターです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "Scrappy's",
+    "price": 3800,
+    "stock": 5,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "organic",
+      "lavender",
+      "floral",
+      "handcrafted"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-031-1/600/600",
+      "https://picsum.photos/seed/ing-031-2/600/600"
+    ],
+    "name": {
+      "ko": "스크래피 라벤더 비터스",
+      "en": "Scrappy's Lavender Bitters",
+      "ja": "スクラッピーズ ラベンダービターズ"
+    },
+    "description": {
+      "ko": "진 칵테일에 우아한 꽃향기를 더해주는 유기농 비터스입니다.",
+      "en": "Organic bitters adding elegant floral notes to gin cocktails.",
+      "ja": "ジンカクテルに優雅な花の香りを添えるオーガニックビターズです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "sugar-syrup",
+    "brand": "1883",
+    "price": 1600,
+    "stock": 40,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "french-syrup",
+      "pure-sugar",
+      "premium",
+      "reliable"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-032-1/600/600",
+      "https://picsum.photos/seed/ing-032-2/600/600"
+    ],
+    "name": {
+      "ko": "1883 루틴 슈가 시럽",
+      "en": "1883 Routin Sugar Syrup",
+      "ja": "1883 メゾン・ルータン シュガーシロップ"
+    },
+    "description": {
+      "ko": "프랑스 알프스의 깨끗한 물과 사탕수수로 만든 프리미엄 시럽입니다.",
+      "en": "Premium syrup made with pure Alpine water and cane sugar.",
+      "ja": "フランス・アルプスの純水とサトウキビで作られたプレミアムシロップです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lemon",
+    "brand": "Citrus-Pro",
+    "price": 5000,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "frozen",
+      "convenience",
+      "fresh-taste",
+      "bartender-help"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-033-1/600/600",
+      "https://picsum.photos/seed/ing-033-2/600/600"
+    ],
+    "name": {
+      "ko": "냉동 레몬 슬라이스 (2kg)",
+      "en": "Frozen Lemon Slices (2kg)",
+      "ja": "冷凍レモンスライス (2kg)"
+    },
+    "description": {
+      "ko": "바쁜 업장에서 즉시 사용 가능한 신선한 냉동 레몬 슬라이스입니다.",
+      "en": "Fresh frozen lemon slices ready for immediate use in busy bars.",
+      "ja": "忙しい現場ですぐに使用可能な新鮮な冷凍レモンスライスです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lime",
+    "brand": "Citrus-Pro",
+    "price": 5500,
+    "stock": 8,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "frozen",
+      "garnish",
+      "quick-prep",
+      "lime-slices"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-034-1/600/600",
+      "https://picsum.photos/seed/ing-034-2/600/600"
+    ],
+    "name": {
+      "ko": "냉동 라임 슬라이스 (2kg)",
+      "en": "Frozen Lime Slices (2kg)",
+      "ja": "冷凍ライムスライス (2kg)"
+    },
+    "description": {
+      "ko": "균일한 크기로 절단되어 가니쉬 효율을 높여주는 제품입니다.",
+      "en": "Uniformly sliced to increase garnish preparation efficiency.",
+      "ja": "均一なサイズにカットされ、ガーニッシュの効率を高める製品です。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "Bittermens",
+    "price": 3600,
+    "stock": 7,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "chocolate",
+      "mole",
+      "spicy",
+      "artisan"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-035-1/600/600",
+      "https://picsum.photos/seed/ing-035-2/600/600"
+    ],
+    "name": {
+      "ko": "비터맨즈 소콜라틀 몰레 비터스",
+      "en": "Bittermens Xocolatl Mole Bitters",
+      "ja": "ビターメンツ ショコラトル・モレ・ビターズ"
+    },
+    "description": {
+      "ko": "카카오와 향신료의 조화로 다크 스피릿 칵테일에 탁월합니다.",
+      "en": "A blend of cacao and spices, excellent for dark spirit cocktails.",
+      "ja": "カカオとスパイスの調和で、ダークスピリッツカクテルに最適です。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "tonic-water",
+    "brand": "Franklin-Sons",
+    "price": 4600,
+    "stock": 22,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "british",
+      "natural",
+      "light",
+      "crisp"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-036-1/600/600",
+      "https://picsum.photos/seed/ing-036-2/600/600"
+    ],
+    "name": {
+      "ko": "프랭클린앤선즈 내추럴 토닉",
+      "en": "Franklin & Sons Natural Tonic",
+      "ja": "フランクリン＆サンズ ナチュラル トニック"
+    },
+    "description": {
+      "ko": "영국 전통 방식으로 제조된 깔끔한 맛의 프리미엄 토닉입니다.",
+      "en": "A premium tonic with a clean taste, crafted in the British tradition.",
+      "ja": "英国の伝統的な製法で作られた、クリーンな味わいのプレミアムトニックです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "soda-water",
+    "brand": "Fever-Tree",
+    "price": 4800,
+    "stock": 18,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "premium-soda",
+      "low-mineral",
+      "soft",
+      "elegant"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-037-1/600/600",
+      "https://picsum.photos/seed/ing-037-2/600/600"
+    ],
+    "name": {
+      "ko": "피버트리 프리미엄 소다워터",
+      "en": "Fever-Tree Premium Soda Water",
+      "ja": "フィーバーツリー プレミアム ソーダウォーター"
+    },
+    "description": {
+      "ko": "부드러운 기포와 미세한 미네랄 균형이 최고급 스피릿과 잘 어울립니다.",
+      "en": "Soft bubbles and subtle mineral balance pair well with top-shelf spirits.",
+      "ja": "柔らかな泡と微細なミネラルバランスが、最高級スピリッツとよく合います。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "sugar-syrup",
+    "brand": "D'arbo",
+    "price": 1900,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "austrian",
+      "natural",
+      "high-quality",
+      "simple"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-038-1/600/600",
+      "https://picsum.photos/seed/ing-038-2/600/600"
+    ],
+    "name": {
+      "ko": "다르보 설탕 시럽",
+      "en": "D'arbo Sugar Syrup",
+      "ja": "ダルボ シュガーシロップ"
+    },
+    "description": {
+      "ko": "오스트리아 전통의 천연 감미료로 순수한 단맛을 보장합니다.",
+      "en": "Traditional Austrian natural sweetener ensuring pure sweetness.",
+      "ja": "オーストリア伝統の天然甘味料で、純粋な甘さを保証します。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "apple-puree",
+    "brand": "Suncot",
+    "price": 1800,
+    "stock": 40,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "value-pack",
+      "mixing",
+      "sweet-apple",
+      "bulk"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-039-1/600/600",
+      "https://picsum.photos/seed/ing-039-2/600/600"
+    ],
+    "name": {
+      "ko": "썬코트 사과 퓌레 (1kg)",
+      "en": "Suncot Apple Puree (1kg)",
+      "ja": "サンコート リンゴピューレ (1kg)"
+    },
+    "description": {
+      "ko": "합리적인 가격으로 다양한 믹스 칵테일에 활용도가 높습니다.",
+      "en": "High versatility for various mixed cocktails at a reasonable price.",
+      "ja": "合理的な価格で、様々なミックスカクテルに活用度が高いです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "Bob's Bitters",
+    "price": 4200,
+    "stock": 0,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "single-botanical",
+      "cardamom",
+      "artisan",
+      "limited"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-040-1/600/600",
+      "https://picsum.photos/seed/ing-040-2/600/600"
+    ],
+    "name": {
+      "ko": "봅스 비터스 카다멈",
+      "en": "Bob's Bitters Cardamom",
+      "ja": "ボブズ・ビターズ カルダモン"
+    },
+    "description": {
+      "ko": "단일 향료의 순수함을 담아 특정 향을 강조할 때 좋습니다.",
+      "en": "Pure single-flavor bitters, perfect for emphasizing specific notes.",
+      "ja": "単一香料の純粋さを込め、特定の香りを強調するのに最適です。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "shaker",
+    "brand": "Yukiwa",
+    "price": 8500,
+    "stock": 30,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "cobbler-shaker",
+      "japanese-steel",
+      "professional",
+      "durable"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-001-1/600/600",
+      "https://picsum.photos/seed/tool-001-2/600/600"
+    ],
+    "name": {
+      "ko": "유키와 바론 쉐이커 510ml",
+      "en": "Yukiwa Baron Shaker 510ml",
+      "ja": "ユキワ バロンシェーカー 510ml"
+    },
+    "description": {
+      "ko": "정교한 마감과 내구성으로 전 세계 바텐더의 사랑을 받는 모델입니다.",
+      "en": "A model loved by bartenders worldwide for its precise finish and durability.",
+      "ja": "精巧な仕上げと耐久性で、世界中のバーテンダーに愛されるモデルです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "jigger",
+    "brand": "Mr. Slim",
+    "price": 3200,
+    "stock": 50,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "measuring-tool",
+      "stainless-steel",
+      "precise",
+      "japanese"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-002-1/600/600",
+      "https://picsum.photos/seed/tool-002-2/600/600"
+    ],
+    "name": {
+      "ko": "미스터 슬림 지거 (30/45ml)",
+      "en": "Mr. Slim Jigger (30/45ml)",
+      "ja": "Mr.スリム メジャーカップ (30/45ml)"
+    },
+    "description": {
+      "ko": "슬림한 디자인으로 정교한 계량이 가능한 표준 지거입니다.",
+      "en": "A standard jigger with a slim design for precise measurement.",
+      "ja": "スリムなデザインで精巧な計量が可能な標準メジャーカップです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "bar-spoon",
+    "brand": "Birdy",
+    "price": 6800,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "luxury",
+      "stirring",
+      "ergonomic",
+      "high-polish"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-003-1/600/600",
+      "https://picsum.photos/seed/tool-003-2/600/600"
+    ],
+    "name": {
+      "ko": "버디 에릭 로린츠 바 스푼",
+      "en": "Birdy Erik Lorincz Bar Spoon",
+      "ja": "BIRDY. by Erik Lorincz バースプーン"
+    },
+    "description": {
+      "ko": "손에 감기는 그립감과 부드러운 스터링을 제공하는 최고급 스푼입니다.",
+      "en": "A premium spoon providing a comfortable grip and smooth stirring.",
+      "ja": "手に馴染むグリップ感と滑らかなステアを実現する最高級スプーンです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "strainer",
+    "brand": "Koriko",
+    "price": 2800,
+    "stock": 40,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "hawthorne",
+      "filtering",
+      "heavy-duty",
+      "bar-essential"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-004-1/600/600",
+      "https://picsum.photos/seed/tool-004-2/600/600"
+    ],
+    "name": {
+      "ko": "코리코 호손 스트레이너",
+      "en": "Koriko Hawthorne Strainer",
+      "ja": "コリコ ホーソーンストレーナー"
+    },
+    "description": {
+      "ko": "촘촘한 스프링으로 얼음과 잔여물을 완벽하게 걸러줍니다.",
+      "en": "A tight spring perfectly filters ice and residue.",
+      "ja": "細かいスプリングで氷や残渣を完璧に濾し取ります。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "scale",
+    "brand": "Hario",
+    "price": 7500,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "digital-scale",
+      "precision",
+      "timer",
+      "coffee-and-bar"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-005-1/600/600",
+      "https://picsum.photos/seed/tool-005-2/600/600"
+    ],
+    "name": {
+      "ko": "하리오 V60 드립 스케일",
+      "en": "Hario V60 Drip Scale",
+      "ja": "ハリオ V60 ドリップスケール"
+    },
+    "description": {
+      "ko": "0.1g 단위 계량과 타이머 기능으로 일관된 칵테일 제조를 돕습니다.",
+      "en": "Assists consistent cocktail making with 0.1g precision and a timer.",
+      "ja": "0.1g単位の計量とタイマー機能で、一貫したカクテル作りをサポートします。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "apron",
+    "brand": "Search-Rescue",
+    "price": 12500,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "canvas",
+      "leather-detail",
+      "workwear",
+      "stylish"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-006-1/600/600",
+      "https://picsum.photos/seed/tool-006-2/600/600"
+    ],
+    "name": {
+      "ko": "캔버스 바텐더 에이프런",
+      "en": "Canvas Bartender Apron",
+      "ja": "キャンバス バーテンダーエプロン"
+    },
+    "description": {
+      "ko": "내구성이 강한 캔버스와 가죽 디테일로 멋과 실용성을 더했습니다.",
+      "en": "Combines style and practicality with durable canvas and leather details.",
+      "ja": "耐久性の高いキャンバスとレザーディテールで、スタイルと実用性を兼ね備えています。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "shaker",
+    "brand": "Cocktail-Kingdom",
+    "price": 5200,
+    "stock": 45,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "boston-shaker",
+      "weighted",
+      "professional",
+      "classic"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-007-1/600/600",
+      "https://picsum.photos/seed/tool-007-2/600/600"
+    ],
+    "name": {
+      "ko": "코리코 보스턴 쉐이커 틴",
+      "en": "Koriko Boston Shaker Tins",
+      "ja": "コリコ ボストンシェーカー チン"
+    },
+    "description": {
+      "ko": "완벽한 밀폐와 빠른 냉각 성능을 자랑하는 업계 표준 보스턴 쉐이커입니다.",
+      "en": "Industry standard Boston shaker with perfect seal and rapid cooling.",
+      "ja": "完璧な密閉と素早い冷却性能を誇る、業界標準のボストンシェーカーです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "jigger",
+    "brand": "Yukiwa",
+    "price": 4500,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "multi-measure",
+      "japanese",
+      "elegant",
+      "accurate"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-008-1/600/600",
+      "https://picsum.photos/seed/tool-008-2/600/600"
+    ],
+    "name": {
+      "ko": "유키와 스탠다드 지거",
+      "en": "Yukiwa Standard Jigger",
+      "ja": "ユキワ スタンダードメジャーカップ"
+    },
+    "description": {
+      "ko": "고품질 스테인리스 재질로 변색 없이 오래 사용 가능합니다.",
+      "en": "High-quality stainless steel for long-lasting use without discoloration.",
+      "ja": "高品質なステンレス製で、変色なく長く愛用いただけます。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "bar-spoon",
+    "brand": "Cocktail-Kingdom",
+    "price": 3800,
+    "stock": 60,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "teardrop",
+      "long-handle",
+      "weighted",
+      "classic"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-009-1/600/600",
+      "https://picsum.photos/seed/tool-009-2/600/600"
+    ],
+    "name": {
+      "ko": "티어드롭 바 스푼 (40cm)",
+      "en": "Teardrop Bar Spoon (40cm)",
+      "ja": "ティアドロップ バースプーン (40cm)"
+    },
+    "description": {
+      "ko": "티어드롭 형태의 무게추가 달려 있어 균형 잡힌 스터링이 가능합니다.",
+      "en": "Teardrop weight ensures balanced and controlled stirring.",
+      "ja": "ティアドロップ型の重りが付いており、バランスの取れたステアが可能です。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "strainer",
+    "brand": "Yukiwa",
+    "price": 3500,
+    "stock": 30,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "julep-strainer",
+      "mixing-glass",
+      "classic",
+      "polished"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-010-1/600/600",
+      "https://picsum.photos/seed/tool-010-2/600/600"
+    ],
+    "name": {
+      "ko": "유키와 줄렙 스트레이너",
+      "en": "Yukiwa Julep Strainer",
+      "ja": "ユキワ ジュレップストレーナー"
+    },
+    "description": {
+      "ko": "믹싱 글라스와 함께 사용하기 좋은 클래식한 디자인의 스트레이너입니다.",
+      "en": "A classic strainer designed for use with mixing glasses.",
+      "ja": "ミキシンググラスとの併用に最適なクラシックなデザインのストレーナーです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "scale",
+    "brand": "Acaia",
+    "price": 32000,
+    "stock": 5,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "smart-scale",
+      "bluetooth",
+      "high-end",
+      "accurate"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-011-1/600/600",
+      "https://picsum.photos/seed/tool-011-2/600/600"
+    ],
+    "name": {
+      "ko": "아카이아 펄 디지털 스케일",
+      "en": "Acaia Pearl Digital Scale",
+      "ja": "アカイア パール デジタルスケール"
+    },
+    "description": {
+      "ko": "앱 연동이 가능한 최첨단 스마트 스케일로 최고의 정밀도를 제공합니다.",
+      "en": "State-of-the-art smart scale with app integration for ultimate precision.",
+      "ja": "アプリ連携が可能な最先端のスマートスケールで、最高の精度を提供します。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "apron",
+    "brand": "Bar-Armor",
+    "price": 5800,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "waterproof",
+      "black",
+      "functional",
+      "professional"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-012-1/600/600",
+      "https://picsum.photos/seed/tool-012-2/600/600"
+    ],
+    "name": {
+      "ko": "방수 블랙 바텐더 에이프런",
+      "en": "Waterproof Black Bartender Apron",
+      "ja": "防水ブラックバーテンダーエプロン"
+    },
+    "description": {
+      "ko": "오염에 강한 방수 소재로 제작되어 실용성이 뛰어난 에이프런입니다.",
+      "en": "Highly practical apron made of stain-resistant waterproof material.",
+      "ja": "汚れに強い防水素材で作られた、実用性に優れたエプロンです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "shaker",
+    "brand": "Birdy",
+    "price": 18000,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "premium",
+      "micro-polished",
+      "handcrafted",
+      "japanese"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-013-1/600/600",
+      "https://picsum.photos/seed/tool-013-2/600/600"
+    ],
+    "name": {
+      "ko": "버디 CS500 쉐이커",
+      "en": "Birdy CS500 Shaker",
+      "ja": "BIRDY. CS500 カクテルシェーカー"
+    },
+    "description": {
+      "ko": "내부 미세 연마 공법으로 기포를 극대화하고 맛을 부드럽게 합니다.",
+      "en": "Micro-polished interior maximizes bubbles and softens the flavor.",
+      "ja": "内部の微細研磨技術により泡を最大化し、味をまろやかにします。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "jigger",
+    "brand": "Leopold",
+    "price": 3800,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "vintage-style",
+      "bell-jigger",
+      "heavy",
+      "brass-look"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-014-1/600/600",
+      "https://picsum.photos/seed/tool-014-2/600/600"
+    ],
+    "name": {
+      "ko": "레오폴드 벨 지거",
+      "en": "Leopold Bell Jigger",
+      "ja": "レオポルド ベルメジャーカップ"
+    },
+    "description": {
+      "ko": "묵직한 무게감과 빈티지한 디자인이 돋보이는 지거입니다.",
+      "en": "A jigger featuring a heavy weight and standout vintage design.",
+      "ja": "重厚な重量感とヴィンテージなデザインが際立つメジャーカップです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "bar-spoon",
+    "brand": "Yukiwa",
+    "price": 2500,
+    "stock": 45,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "standard",
+      "twisted-handle",
+      "reliable",
+      "bar-tool"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-015-1/600/600",
+      "https://picsum.photos/seed/tool-015-2/600/600"
+    ],
+    "name": {
+      "ko": "유키와 트위스트 바 스푼 (35cm)",
+      "en": "Yukiwa Twisted Bar Spoon (35cm)",
+      "ja": "ユキワ ツイストバースプーン (35cm)"
+    },
+    "description": {
+      "ko": "가장 표준적인 트위스트 디자인으로 입문자에게도 추천합니다.",
+      "en": "Standard twisted design, highly recommended for beginners.",
+      "ja": "最も標準的なツイストデザインで、初心者にもおすすめです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "strainer",
+    "brand": "Cocktail-Kingdom",
+    "price": 4200,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "fine-mesh",
+      "double-strain",
+      "conical",
+      "essential"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-016-1/600/600",
+      "https://picsum.photos/seed/tool-016-2/600/600"
+    ],
+    "name": {
+      "ko": "파인 메쉬 더블 스트레이너",
+      "en": "Fine Mesh Double Strainer",
+      "ja": "ファインメッシュ ダブルストレーナー"
+    },
+    "description": {
+      "ko": "미세한 얼음 파편과 과육을 완벽하게 걸러내어 깔끔한 음료를 만듭니다.",
+      "en": "Filters fine ice and pulp for a perfectly clean drink.",
+      "ja": "微細な氷の破片や果肉を完璧に取り除き、クリアな飲み物を作ります。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "scale",
+    "brand": "Ozeri",
+    "price": 4500,
+    "stock": 35,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "budget",
+      "compact",
+      "reliable",
+      "kitchen-tool"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-017-1/600/600",
+      "https://picsum.photos/seed/tool-017-2/600/600"
+    ],
+    "name": {
+      "ko": "오제리 가성비 디지털 스케일",
+      "en": "Ozeri Compact Digital Scale",
+      "ja": "Ozeri コンパクトデジタルスケール"
+    },
+    "description": {
+      "ko": "부담 없는 가격에 정확한 계량이 가능한 실용적인 스케일입니다.",
+      "en": "A practical scale for accurate measurement at an affordable price.",
+      "ja": "手頃な価格で正確な計量が可能な実用的なスケールです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "apron",
+    "brand": "Chef-Works",
+    "price": 7200,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "denim",
+      "modern",
+      "durable",
+      "cross-back"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-018-1/600/600",
+      "https://picsum.photos/seed/tool-018-2/600/600"
+    ],
+    "name": {
+      "ko": "데님 바텐더 에이프런",
+      "en": "Denim Bartender Apron",
+      "ja": "デニム バーテンダーエプロン"
+    },
+    "description": {
+      "ko": "세련된 데님 소재로 크로스백 끈 디자인이 어깨의 피로를 줄여줍니다.",
+      "en": "Stylish denim with a cross-back design to reduce shoulder fatigue.",
+      "ja": "洗練されたデニム素材で、クロスバックデザインが肩の疲れを軽減します。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "shaker",
+    "brand": "Aarke",
+    "price": 12000,
+    "stock": 5,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "minimalist",
+      "scandinavian",
+      "design",
+      "high-end"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-019-1/600/600",
+      "https://picsum.photos/seed/tool-019-2/600/600"
+    ],
+    "name": {
+      "ko": "아르케 미니멀리스트 쉐이커",
+      "en": "Aarke Minimalist Shaker",
+      "ja": "Aarke ミニマリストシェーカー"
+    },
+    "description": {
+      "ko": "북유럽 디자인의 정수를 보여주는 세련된 스타일의 쉐이커입니다.",
+      "en": "A stylish shaker embodying the essence of Scandinavian design.",
+      "ja": "北欧デザインの真髄を示す洗練されたスタイルのシェーカーです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "jigger",
+    "brand": "Viski",
+    "price": 2900,
+    "stock": 0,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "copper-finish",
+      "elegant",
+      "measuring",
+      "gift-item"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-020-1/600/600",
+      "https://picsum.photos/seed/tool-020-2/600/600"
+    ],
+    "name": {
+      "ko": "비스키 코퍼 마감 지거",
+      "en": "Viski Copper Finish Jigger",
+      "ja": "Viski カッパーフィニッシュ メジャーカップ"
+    },
+    "description": {
+      "ko": "우아한 구리 색상 마감으로 바 선반의 인테리어 효과를 높여줍니다.",
+      "en": "Elegant copper finish enhances the look of any bar shelf.",
+      "ja": "優雅なカッパー仕上げで、バーカウンターのインテリア効果を高めます。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "bar-spoon",
+    "brand": "Hario",
+    "price": 1800,
+    "stock": 50,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "glass-spoon",
+      "stirring",
+      "unique",
+      "delicate"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-021-1/600/600",
+      "https://picsum.photos/seed/tool-021-2/600/600"
+    ],
+    "name": {
+      "ko": "하리오 내열유리 바 스푼",
+      "en": "Hario Heat-Resistant Glass Bar Spoon",
+      "ja": "ハリオ 耐熱ガラスバースプーン"
+    },
+    "description": {
+      "ko": "유리 특유의 감성을 담은 스푼으로 투명한 음료 제조 시 돋보입니다.",
+      "en": "Glass spoon adding unique aesthetic to clear cocktail making.",
+      "ja": "ガラス特有の感性を込めたスプーンで、透明な飲料を作る際に際立ちます。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "strainer",
+    "brand": "Birdy",
+    "price": 9500,
+    "stock": 8,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "wingless",
+      "smooth-pour",
+      "luxury",
+      "japanese"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-022-1/600/600",
+      "https://picsum.photos/seed/tool-022-2/600/600"
+    ],
+    "name": {
+      "ko": "버디 윙리스 스트레이너",
+      "en": "Birdy Wingless Strainer",
+      "ja": "BIRDY. ウィングレス ストレーナー"
+    },
+    "description": {
+      "ko": "날개가 없는 혁신적 디자인으로 쉐이커 내부 깊숙이 밀착됩니다.",
+      "en": "Innovative wingless design fits deep inside the shaker.",
+      "ja": "羽のない革新的なデザインで、シェーカー内部に深く密着します。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "scale",
+    "brand": "Tanita",
+    "price": 5500,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "accurate",
+      "reliable",
+      "slim-design",
+      "japanese"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-023-1/600/600",
+      "https://picsum.photos/seed/tool-023-2/600/600"
+    ],
+    "name": {
+      "ko": "타니타 고정밀 디지털 스케일",
+      "en": "Tanita High-Precision Digital Scale",
+      "ja": "タニタ 高精度デジタルスケール"
+    },
+    "description": {
+      "ko": "오랜 기술력으로 검증된 타니타의 정확한 바용 스케일입니다.",
+      "en": "Accurate bar scale from Tanita, verified by years of technology.",
+      "ja": "長年の技術力で検証されたタニタの正確なバー用スケールです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "apron",
+    "brand": "Tilit",
+    "price": 11000,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "ny-style",
+      "lightweight",
+      "breathable",
+      "chef-preferred"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-024-1/600/600",
+      "https://picsum.photos/seed/tool-024-2/600/600"
+    ],
+    "name": {
+      "ko": "틸릿 뉴욕 바텐더 에이프런",
+      "en": "Tilit NYC Bartender Apron",
+      "ja": "Tilit NYC バーテンダーエプロン"
+    },
+    "description": {
+      "ko": "뉴욕 스타일의 가볍고 통기성이 좋은 전문가용 에이프런입니다.",
+      "en": "Lightweight and breathable professional apron in NYC style.",
+      "ja": "ニューヨークスタイルの軽量で通気性の良いプロ仕様のエプロンです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "shaker",
+    "brand": "OXO",
+    "price": 3500,
+    "stock": 60,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "easy-grip",
+      "beginner-friendly",
+      "practical",
+      "leak-proof"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-025-1/600/600",
+      "https://picsum.photos/seed/tool-025-2/600/600"
+    ],
+    "name": {
+      "ko": "옥소 스틸 칵테일 쉐이커",
+      "en": "OXO Steel Cocktail Shaker",
+      "ja": "OXO スチール カクテルシェーカー"
+    },
+    "description": {
+      "ko": "미끄럼 방지 그립과 계량 캡이 포함되어 초보자에게 최적입니다.",
+      "en": "Non-slip grip and measuring cap make it perfect for beginners.",
+      "ja": "滑り止めグリップと計量キャップ付きで、初心者に最適です。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "jigger",
+    "brand": "OXO",
+    "price": 1800,
+    "stock": 80,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "rubber-grip",
+      "practical",
+      "multi-scale",
+      "durable"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-026-1/600/600",
+      "https://picsum.photos/seed/tool-026-2/600/600"
+    ],
+    "name": {
+      "ko": "옥소 더블 지거",
+      "en": "OXO Double Jigger",
+      "ja": "OXO ダブルメジャーカップ"
+    },
+    "description": {
+      "ko": "중앙의 부드러운 고무 그립으로 젖은 손으로도 안정적인 계량이 가능합니다.",
+      "en": "Soft rubber grip ensures stable measurement even with wet hands.",
+      "ja": "中央の柔らかいゴムグリップにより、濡れた手でも安定した計量が可能です。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "bar-spoon",
+    "brand": "Mercer",
+    "price": 2200,
+    "stock": 40,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "value",
+      "functional",
+      "long-reach",
+      "sturdy"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-027-1/600/600",
+      "https://picsum.photos/seed/tool-027-2/600/600"
+    ],
+    "name": {
+      "ko": "머서 바 스푼 (30cm)",
+      "en": "Mercer Bar Spoon (30cm)",
+      "ja": "マーサー バースプーン (30cm)"
+    },
+    "description": {
+      "ko": "기본에 충실한 디자인으로 상업용 바에서 대량 사용하기 좋습니다.",
+      "en": "Basic design ideal for high-volume use in commercial bars.",
+      "ja": "基本に忠実なデザインで、商業バーでの大量使用に適しています。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "strainer",
+    "brand": "Winco",
+    "price": 1200,
+    "stock": 100,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "bulk-buy",
+      "standard",
+      "utility",
+      "durable"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-028-1/600/600",
+      "https://picsum.photos/seed/tool-028-2/600/600"
+    ],
+    "name": {
+      "ko": "윈코 표준 호손 스트레이너",
+      "en": "Winco Standard Hawthorne Strainer",
+      "ja": "Winco 標準ホーソーンストレーナー"
+    },
+    "description": {
+      "ko": "내구성이 뛰어나고 경제적인 표준형 스트레이너입니다.",
+      "en": "A highly durable and economical standard strainer.",
+      "ja": "耐久性に優れ、経済的な標準型ストレーナーです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "scale",
+    "brand": "Escali",
+    "price": 4200,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "colorful",
+      "compact",
+      "reliable",
+      "simple-interface"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-029-1/600/600",
+      "https://picsum.photos/seed/tool-029-2/600/600"
+    ],
+    "name": {
+      "ko": "에스칼리 프리모 디지털 스케일",
+      "en": "Escali Primo Digital Scale",
+      "ja": "Escali プリモ デジタルスケール"
+    },
+    "description": {
+      "ko": "다양한 컬러와 직관적인 조작법을 가진 실용적인 디지털 스케일입니다.",
+      "en": "Practical digital scale with various colors and intuitive operation.",
+      "ja": "多彩なカラーと直感的な操作法を持つ実用的なデジタルスケールです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "apron",
+    "brand": "Under-NY-Sky",
+    "price": 9800,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "cross-back",
+      "heavy-duty",
+      "multi-pocket",
+      "premium-canvas"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-030-1/600/600",
+      "https://picsum.photos/seed/tool-030-2/600/600"
+    ],
+    "name": {
+      "ko": "언더뉴욕스카이 프리미엄 에이프런",
+      "en": "Under NY Sky Premium Apron",
+      "ja": "Under NY Sky プレミアムエプロン"
+    },
+    "description": {
+      "ko": "여러 개의 포켓으로 수납이 용이한 헤비듀티 캔버스 에이프런입니다.",
+      "en": "Heavy-duty canvas apron with multiple pockets for easy storage.",
+      "ja": "複数のポケットで収納が容易なヘビーデューティーキャンバスエプロンです。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "recipe-book",
+    "brand": "Taschen",
+    "price": 5500,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "classic-cocktails",
+      "history",
+      "illustration",
+      "must-read"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-001-1/600/600",
+      "https://picsum.photos/seed/acc-001-2/600/600"
+    ],
+    "name": {
+      "ko": "칵테일의 예술: 클래식 레시피북",
+      "en": "The Art of Cocktails: Classic Recipes",
+      "ja": "カクテルの芸術：クラシックレシピブック"
+    },
+    "description": {
+      "ko": "아름다운 일러스트와 함께 수록된 클래식 칵테일의 역사와 레시피입니다.",
+      "en": "The history and recipes of classic cocktails with beautiful illustrations.",
+      "ja": "美しいイラストと共に収録されたクラシックカクテルの歴史とレシピです。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "glass-set",
+    "brand": "Riedel",
+    "price": 8500,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "crystal-glass",
+      "nick-and-nora",
+      "elegant",
+      "professional"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-002-1/600/600",
+      "https://picsum.photos/seed/acc-002-2/600/600"
+    ],
+    "name": {
+      "ko": "리델 닉 앤 노라 글라스 (2본입)",
+      "en": "Riedel Nick & Nora Glass (Set of 2)",
+      "ja": "リーデル ニック＆ノーラ グラス (2脚セット)"
+    },
+    "description": {
+      "ko": "클래식 칵테일에 최적화된 우아한 곡선의 크리스탈 글라스입니다.",
+      "en": "Elegant crystal glasses with curves optimized for classic cocktails.",
+      "ja": "クラシックカクテルに最適化された、優雅な曲線のクリスタルグラスです。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "bar-mat",
+    "brand": "Amazon-Basics",
+    "price": 2500,
+    "stock": 50,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "rubber-mat",
+      "anti-slip",
+      "drainage",
+      "essential"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-003-1/600/600",
+      "https://picsum.photos/seed/acc-003-2/600/600"
+    ],
+    "name": {
+      "ko": "표준 고무 바 매트 (Large)",
+      "en": "Standard Rubber Bar Mat (Large)",
+      "ja": "標準ラバーバーマット (Lサイズ)"
+    },
+    "description": {
+      "ko": "미끄럼 방지와 신속한 배수를 도와 바 카운터를 청결하게 유지합니다.",
+      "en": "Prevents slipping and helps drainage to keep the bar counter clean.",
+      "ja": "滑り止めと迅速な排水を助け、バーカウンターを清潔に保ちます。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "garnish-kit",
+    "brand": "Pro-Garnish",
+    "price": 3800,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "zester",
+      "peeler",
+      "knife",
+      "preparation"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-004-1/600/600",
+      "https://picsum.photos/seed/acc-004-2/600/600"
+    ],
+    "name": {
+      "ko": "프로 가니쉬 툴 키트",
+      "en": "Pro Garnish Tool Kit",
+      "ja": "プロ ガーニッシュ ツールキット"
+    },
+    "description": {
+      "ko": "제스터, 필러, 정밀 칼로 구성되어 완벽한 가니쉬를 돕습니다.",
+      "en": "Comprises a zester, peeler, and precision knife for perfect garnishes.",
+      "ja": "ゼスター、ピーラー、精密ナイフで構成され、完璧なガーニッシュをサポートします。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "recipe-book",
+    "brand": "Death-and-Co",
+    "price": 6200,
+    "stock": 8,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "modern-classics",
+      "mixology",
+      "comprehensive",
+      "bartender-bible"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-005-1/600/600",
+      "https://picsum.photos/seed/acc-005-2/600/600"
+    ],
+    "name": {
+      "ko": "데스 앤 코: 모던 클래식 칵테일",
+      "en": "Death & Co: Modern Classic Cocktails",
+      "ja": "デス＆コー：モダンクラシックカクテル"
+    },
+    "description": {
+      "ko": "현대 믹솔로지의 정수를 담은 바텐더들의 필독서입니다.",
+      "en": "A must-read for bartenders, capturing the essence of modern mixology.",
+      "ja": "現代ミクソロジーの真髄を込めたバーテンダーの必読書です。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "glass-set",
+    "brand": "Libbey",
+    "price": 4200,
+    "stock": 30,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "coupe-glass",
+      "vintage",
+      "durable",
+      "affordable"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-006-1/600/600",
+      "https://picsum.photos/seed/acc-006-2/600/600"
+    ],
+    "name": {
+      "ko": "리비 빈티지 쿠페 글라스 (6본입)",
+      "en": "Libbey Vintage Coupe Glass (Set of 6)",
+      "ja": "リビー ヴィンテージ クープグラス (6脚セット)"
+    },
+    "description": {
+      "ko": "내구성이 뛰어나며 빈티지한 감성을 자극하는 실용적인 글라스 세트입니다.",
+      "en": "A practical and durable glass set with a vintage aesthetic.",
+      "ja": "耐久性に優れ、ヴィンテージな感性を刺激する実用的なグラスセットです。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "bar-mat",
+    "brand": "Cocktail-Kingdom",
+    "price": 4800,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "service-mat",
+      "branded",
+      "heavy-duty",
+      "long"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-007-1/600/600",
+      "https://picsum.photos/seed/acc-007-2/600/600"
+    ],
+    "name": {
+      "ko": "서비스 레일 바 매트",
+      "en": "Service Rail Bar Mat",
+      "ja": "サービスレール バーマット"
+    },
+    "description": {
+      "ko": "칵테일 서빙을 위한 길쭉한 형태의 전문가용 서비스 매트입니다.",
+      "en": "A long professional service mat designed for cocktail serving.",
+      "ja": "カクテルサービングのための細長い形状のプロ仕様サービスマットです。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "garnish-kit",
+    "brand": "Viski",
+    "price": 4500,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "picks",
+      "stainless-steel",
+      "reusable",
+      "elegant"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-008-1/600/600",
+      "https://picsum.photos/seed/acc-008-2/600/600"
+    ],
+    "name": {
+      "ko": "스틸 칵테일 픽 세트 (12개입)",
+      "en": "Steel Cocktail Pick Set (Set of 12)",
+      "ja": "スチール カクテルピックセット (12本入)"
+    },
+    "description": {
+      "ko": "재사용 가능한 스테인리스 픽으로 환경 보호와 우아함을 동시에 잡으세요.",
+      "en": "Reusable stainless picks for eco-friendliness and elegance.",
+      "ja": "再利用可能なステンレスピックで、環境保護と優雅さを同時に手に入れましょう。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "recipe-book",
+    "brand": "Phaidon",
+    "price": 4800,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "encyclopedia",
+      "global",
+      "recipes",
+      "reference"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-009-1/600/600",
+      "https://picsum.photos/seed/acc-009-2/600/600"
+    ],
+    "name": {
+      "ko": "칵테일 코덱스: 완벽한 레시피 가이드",
+      "en": "Cocktail Codex: The Ultimate Guide",
+      "ja": "カクテル・コーデックス：究極のレシピガイド"
+    },
+    "description": {
+      "ko": "칵테일의 6가지 기본 뿌리를 통해 창조적 레시피를 제안합니다.",
+      "en": "Proposes creative recipes through 6 fundamental root cocktails.",
+      "ja": "カクテルの6つの基本ルーツを通じて創造的なレシピを提案します。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "glass-set",
+    "brand": "Kimura-Glass",
+    "price": 12000,
+    "stock": 5,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "thin-glass",
+      "artisan",
+      "japanese-design",
+      "luxury"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-010-1/600/600",
+      "https://picsum.photos/seed/acc-010-2/600/600"
+    ],
+    "name": {
+      "ko": "키무라 글라스 컴팩트 마티니",
+      "en": "Kimura Glass Compact Martini",
+      "ja": "木村硝子店 コンパクト マティーニ"
+    },
+    "description": {
+      "ko": "극도의 얇음을 추구한 장인 정신의 결정체, 최상의 촉감을 제공합니다.",
+      "en": "Masterpiece of artisan thinness, providing the ultimate tactile experience.",
+      "ja": "極限の薄さを追求した職人技の結晶、最高の口当たりを提供します。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "bar-mat",
+    "brand": "Bar-Pro",
+    "price": 1800,
+    "stock": 40,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "compact",
+      "durable",
+      "heat-resistant",
+      "easy-clean"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-011-1/600/600",
+      "https://picsum.photos/seed/acc-011-2/600/600"
+    ],
+    "name": {
+      "ko": "컴팩트 바 매트 (Small)",
+      "en": "Compact Bar Mat (Small)",
+      "ja": "コンパクトバーマット (Sサイズ)"
+    },
+    "description": {
+      "ko": "좁은 바 공간에서도 효율적으로 사용 가능한 소형 바 매트입니다.",
+      "en": "Small bar mat for efficient use even in narrow spaces.",
+      "ja": "狭いバースペースでも効率的に使用可能な小型バーマットです。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "garnish-kit",
+    "brand": "Craft-Bar",
+    "price": 5500,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "dehydration",
+      "dried-fruit",
+      "premium",
+      "flavor-boost"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-012-1/600/600",
+      "https://picsum.photos/seed/acc-012-2/600/600"
+    ],
+    "name": {
+      "ko": "건조 과일 가니쉬 셀렉션",
+      "en": "Dried Fruit Garnish Selection",
+      "ja": "ドライフルーツ ガーニッシュセレクション"
+    },
+    "description": {
+      "ko": "엄선된 과일을 저온 건조하여 향과 모양이 뛰어난 프리미엄 가니쉬입니다.",
+      "en": "Premium dried fruit garnishes, low-temperature dehydrated for aroma.",
+      "ja": "厳選された果物を低温乾燥させ、香りと形に優れたプレミアムガーニッシュです。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "recipe-book",
+    "brand": "Liquid-Intelligence",
+    "price": 5900,
+    "stock": 0,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "science",
+      "technique",
+      "advanced",
+      "experiment"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-013-1/600/600",
+      "https://picsum.photos/seed/acc-013-2/600/600"
+    ],
+    "name": {
+      "ko": "리퀴드 인텔리전스: 칵테일의 과학",
+      "en": "Liquid Intelligence: The Science of Cocktails",
+      "ja": "リキッド・インテリジェンス：カクテルの科学"
+    },
+    "description": {
+      "ko": "과학적 접근으로 칵테일 제조의 새로운 지평을 여는 도서입니다.",
+      "en": "A book opening new horizons in cocktail making with a scientific approach.",
+      "ja": "科学的アプローチでカクテル作りの新たな地平を切り拓く一冊です。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "glass-set",
+    "brand": "Spiegelau",
+    "price": 7200,
+    "stock": 20,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "mixing-glass",
+      "heavy-bottom",
+      "crystal",
+      "stirring-essential"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-014-1/600/600",
+      "https://picsum.photos/seed/acc-014-2/600/600"
+    ],
+    "name": {
+      "ko": "슈피겔라우 프리미엄 믹싱 글라스",
+      "en": "Spiegelau Premium Mixing Glass",
+      "ja": "シュピゲラウ プレミアム ミキシンググラス"
+    },
+    "description": {
+      "ko": "견고한 하단 설계로 안정적인 스터링을 보장하는 크리스탈 믹싱 글라스입니다.",
+      "en": "Crystal mixing glass with a solid base for stable stirring.",
+      "ja": "堅牢な底部設計で安定したステアを保証する、クリスタルミキシンググラスです。"
+    }
+  },
+  {
+    "category": "accessory",
+    "subcategory": "bar-mat",
+    "brand": "Custom-Pro",
+    "price": 3200,
+    "stock": 15,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "extra-thick",
+      "non-toxic",
+      "professional-grade",
+      "black"
+    ],
+    "images": [
+      "https://picsum.photos/seed/acc-015-1/600/600",
+      "https://picsum.photos/seed/acc-015-2/600/600"
+    ],
+    "name": {
+      "ko": "헤비듀티 두꺼운 바 매트",
+      "en": "Heavy-Duty Thick Bar Mat",
+      "ja": "ヘビーデューティー 厚手バーマット"
+    },
+    "description": {
+      "ko": "두꺼운 고무층으로 충격 흡수와 소음 방지에 탁월한 프리미엄 매트입니다.",
+      "en": "Premium mat with a thick rubber layer for shock and noise reduction.",
+      "ja": "厚いゴム層で衝撃吸収と騒音防止に優れたプレミアムマットです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "Bittermens",
+    "price": 3400,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "habanero",
+      "spicy",
+      "tiki",
+      "heat"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-041-1/600/600",
+      "https://picsum.photos/seed/ing-041-2/600/600"
+    ],
+    "name": {
+      "ko": "비터맨즈 헬파이어 하바네로 슈럽",
+      "en": "Bittermens Hellfire Habanero Shrub",
+      "ja": "ビターメンツ ヘルファイア ハバネロ シュラブ"
+    },
+    "description": {
+      "ko": "강렬한 매운맛을 더해주는 칵테일용 비터즈입니다.",
+      "en": "Cocktail bitters that add an intense spicy kick.",
+      "ja": "強烈な辛味を添えるカクテル用ビターズです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "sugar-syrup",
+    "brand": "Small-Hand-Foods",
+    "price": 2800,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "orgeat",
+      "almond",
+      "classic",
+      "tiki-essential"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-042-1/600/600",
+      "https://picsum.photos/seed/ing-042-2/600/600"
+    ],
+    "name": {
+      "ko": "스몰 핸드 푸드 오르쟈 시럽",
+      "en": "Small Hand Foods Orgeat Syrup",
+      "ja": "スモールハンドフーズ オルジュ・シロップ"
+    },
+    "description": {
+      "ko": "아몬드의 고소한 풍미가 가득한 전통 오르쟈 시럽입니다.",
+      "en": "Traditional orgeat syrup packed with nutty almond flavor.",
+      "ja": "アーモンドの香ばしい風味が溢れる伝統的なオルジュ・シロップです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "tonic-water",
+    "brand": "Fentimans",
+    "price": 4200,
+    "stock": 30,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "botanically-brewed",
+      "british",
+      "complex",
+      "herbal"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-043-1/600/600",
+      "https://picsum.photos/seed/ing-043-2/600/600"
+    ],
+    "name": {
+      "ko": "펜티먼스 브루드 토닉워터",
+      "en": "Fentimans Botanically Brewed Tonic",
+      "ja": "フェンティマンス ボタニカル醸造トニック"
+    },
+    "description": {
+      "ko": "전통 브루잉 방식으로 깊고 복합적인 허브향을 냅니다.",
+      "en": "Traditional brewing method provides deep and complex herbal notes.",
+      "ja": "伝統的な醸造法により、深く複雑なハーブの香りがします。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "soda-water",
+    "brand": "Suntory",
+    "price": 2400,
+    "stock": 50,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "japanese",
+      "highball",
+      "strong-gas",
+      "pure"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-044-1/600/600",
+      "https://picsum.photos/seed/ing-044-2/600/600"
+    ],
+    "name": {
+      "ko": "산토리 더 스트롱 소다",
+      "en": "Suntory The Strong Soda",
+      "ja": "サントリー THE STRONG 天然水スパークリング"
+    },
+    "description": {
+      "ko": "천연수로 만든 강력한 탄산감이 일품인 소다입니다.",
+      "en": "Pure water soda with premium-level strong carbonation.",
+      "ja": "天然水で作られた強力な炭酸感が逸品のソーダです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "apple-puree",
+    "brand": "Ponthier",
+    "price": 3100,
+    "stock": 14,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "gourmet",
+      "french",
+      "chilled",
+      "pure-fruit"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-045-1/600/600",
+      "https://picsum.photos/seed/ing-045-2/600/600"
+    ],
+    "name": {
+      "ko": "폰티에르 사과 퓌레",
+      "en": "Ponthier Apple Puree",
+      "ja": "ポンティエ リンゴピューレ"
+    },
+    "description": {
+      "ko": "프랑스산 고품질 사과만을 선별하여 만든 냉장 퓌레입니다.",
+      "en": "Chilled puree made from strictly selected high-quality French apples.",
+      "ja": "フランス産の高品質なリンゴだけを厳選して作った冷蔵ピューレです。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "Fee Brothers",
+    "price": 2900,
+    "stock": 22,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "rhubarb",
+      "tart",
+      "seasonal-flavor",
+      "mixing"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-046-1/600/600",
+      "https://picsum.photos/seed/ing-046-2/600/600"
+    ],
+    "name": {
+      "ko": "피 브라더스 루바브 비터스",
+      "en": "Fee Brothers Rhubarb Bitters",
+      "ja": "フィーブラザーズ ルバーブビターズ"
+    },
+    "description": {
+      "ko": "루바브 특유의 새콤한 맛이 여름철 진 칵테일에 잘 어울립니다.",
+      "en": "The tartness of rhubarb pairs perfectly with summer gin cocktails.",
+      "ja": "ルバーブ特有の酸味が、夏場のジンカクテルによく合います。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "sugar-syrup",
+    "brand": "Liber-and-Co",
+    "price": 3500,
+    "stock": 5,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "demerara",
+      "raw-sugar",
+      "rich-flavor",
+      "old-fashioned"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-047-1/600/600",
+      "https://picsum.photos/seed/ing-047-2/600/600"
+    ],
+    "name": {
+      "ko": "리버앤코 데메라라 슈가 시럽",
+      "en": "Liber & Co. Demerara Cane Syrup",
+      "ja": "リバー＆コー デメララ・シロップ"
+    },
+    "description": {
+      "ko": "정제되지 않은 원당의 풍부한 향이 올드 패션드에 깊이를 더합니다.",
+      "en": "Rich aroma of raw cane sugar adds depth to Old Fashioneds.",
+      "ja": "未精製の原糖の豊かな香りが、オールドファッションドに深みを与えます。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lemon",
+    "brand": "Organic-Green",
+    "price": 3500,
+    "stock": 10,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "organic",
+      "pesticide-free",
+      "healthy",
+      "high-quality"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-048-1/600/600",
+      "https://picsum.photos/seed/ing-048-2/600/600"
+    ],
+    "name": {
+      "ko": "무농약 유기농 레몬 (1.5kg)",
+      "en": "Pesticide-Free Organic Lemon (1.5kg)",
+      "ja": "無農薬オーガニックレモン (1.5kg)"
+    },
+    "description": {
+      "ko": "껍질째 사용하는 가니쉬나 제스트용으로 안심하고 사용하세요.",
+      "en": "Safe for use in garnishes and zesting where the peel is consumed.",
+      "ja": "皮ごと使うガーニッシュやゼスト用に、安心してお使いください。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "lime",
+    "brand": "Tahiti-Prime",
+    "price": 2800,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "tahitian-lime",
+      "seedless",
+      "juicy",
+      "premium"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-049-1/600/600",
+      "https://picsum.photos/seed/ing-049-2/600/600"
+    ],
+    "name": {
+      "ko": "타히티 무씨 라임 (1kg)",
+      "en": "Tahitian Seedless Lime (1kg)",
+      "ja": "タヒチ種種無しライム (1kg)"
+    },
+    "description": {
+      "ko": "씨가 없어 쥬스 추출이 쉽고 당도와 산미의 조화가 뛰어납니다.",
+      "en": "Seedless for easy juicing with a perfect balance of sweetness and acidity.",
+      "ja": "種がなくジュースが絞りやすく、糖度と酸味の調和が抜群です。"
+    }
+  },
+  {
+    "category": "ingredient",
+    "subcategory": "bitters",
+    "brand": "Angostura",
+    "price": 3200,
+    "stock": 25,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "orange",
+      "versatile",
+      "classic",
+      "standard"
+    ],
+    "images": [
+      "https://picsum.photos/seed/ing-050-1/600/600",
+      "https://picsum.photos/seed/ing-050-2/600/600"
+    ],
+    "name": {
+      "ko": "앙고스투라 오렌지 비터스",
+      "en": "Angostura Orange Bitters",
+      "ja": "アンゴスチュラ オレンジビターズ"
+    },
+    "description": {
+      "ko": "어떤 칵테일에도 잘 어울리는 범용적인 오렌지 비터스입니다.",
+      "en": "A versatile orange bitters that pairs well with any cocktail.",
+      "ja": "どんなカクテルにもよく合う、汎用性の高いオレンジビターズです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "shaker",
+    "brand": "Wmf",
+    "price": 7500,
+    "stock": 18,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "german-quality",
+      "stainless",
+      "sleek",
+      "modern"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-031-1/600/600",
+      "https://picsum.photos/seed/tool-031-2/600/600"
+    ],
+    "name": {
+      "ko": "WMF 로프트 칵테일 쉐이커",
+      "en": "WMF Loft Cocktail Shaker",
+      "ja": "WMF ロフト カクテルシェーカー"
+    },
+    "description": {
+      "ko": "독일 WMF사의 세련된 디자인과 뛰어난 마감을 가진 쉐이커입니다.",
+      "en": "German-engineered shaker with sleek design and superior finish.",
+      "ja": "ドイツWMF社の洗練されたデザインと優れた仕上げを持つシェーカーです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "jigger",
+    "brand": "Hario",
+    "price": 2400,
+    "stock": 45,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "glass-jigger",
+      "heat-resistant",
+      "transparent",
+      "accurate"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-032-1/600/600",
+      "https://picsum.photos/seed/tool-032-2/600/600"
+    ],
+    "name": {
+      "ko": "하리오 유리 계량 지거",
+      "en": "Hario Glass Measuring Jigger",
+      "ja": "ハリオ メジャーカップ ワイド"
+    },
+    "description": {
+      "ko": "투명한 내열유리로 내부 액체의 색상과 양을 쉽게 확인할 수 있습니다.",
+      "en": "Transparent heat-resistant glass allows easy checking of color and volume.",
+      "ja": "透明な耐熱ガラスで、液体の色や量を簡単に確認できます。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "bar-spoon",
+    "brand": "Uber-Bar-Tools",
+    "price": 4500,
+    "stock": 12,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "fork-end",
+      "versatile",
+      "long",
+      "professional"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-033-1/600/600",
+      "https://picsum.photos/seed/tool-033-2/600/600"
+    ],
+    "name": {
+      "ko": "우버 포크 바 스푼 (40cm)",
+      "en": "Uber Fork Bar Spoon (40cm)",
+      "ja": "ウーバー フォークバースプーン (40cm)"
+    },
+    "description": {
+      "ko": "끝부분에 포크가 달려 있어 체리나 올리브를 집기에 편리합니다.",
+      "en": "Features a fork end for easy handling of cherries and olives.",
+      "ja": "先端にフォークが付いており、チェリーやオリーブを掴むのに便利です。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "strainer",
+    "brand": "Alessi",
+    "price": 12000,
+    "stock": 5,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "designer-tool",
+      "italian",
+      "luxury",
+      "iconic"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-034-1/600/600",
+      "https://picsum.photos/seed/tool-034-2/600/600"
+    ],
+    "name": {
+      "ko": "알레시 바 스트레이너",
+      "en": "Alessi Bar Strainer",
+      "ja": "アレッシィ バーストレーナー"
+    },
+    "description": {
+      "ko": "이탈리아 디자인 거장들이 참여한 예술적인 바 툴입니다.",
+      "en": "Artistic bar tool designed by Italian masters.",
+      "ja": "イタリアのデザイン巨匠たちが手がけた芸術的なバーツールです。"
+    }
+  },
+  {
+    "category": "tool",
+    "subcategory": "scale",
+    "brand": "Brewista",
+    "price": 18000,
+    "stock": 8,
+    "rateAvg": 0,
+    "rateCount": 0,
+    "tags": [
+      "water-resistant",
+      "rechargeable",
+      "nano",
+      "precise"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tool-035-1/600/600",
+      "https://picsum.photos/seed/tool-035-2/600/600"
+    ],
+    "name": {
+      "ko": "브루이스타 스마트 스케일 2",
+      "en": "Brewista Smart Scale II",
+      "ja": "ブリューイスタ スマートスケール2"
+    },
+    "description": {
+      "ko": "방수 코팅이 되어 있어 액체를 다루는 바 환경에 최적화되었습니다.",
+      "en": "Water-resistant coating, perfect for liquid-heavy bar environments.",
+      "ja": "ナノコーティングによる防水仕様で、液体を扱うバー環境に最適化されています。"
+    }
+  }
+]

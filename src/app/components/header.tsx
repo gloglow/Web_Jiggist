@@ -1,4 +1,7 @@
-import Link from "next/link";
+import {Link} from '@/../navigation';
+import { IconLinkBtn } from "./common/IconLinkBtn";
+
+const category = ['liquor', 'ingredient', 'tool', 'accessory'];
 
 const Header = () => {
   return (
@@ -12,8 +15,8 @@ const Header = () => {
             <h1 className="text-2xl font-bold tracking-tighter uppercase font-serif">Jiggist</h1>
           </div>
           <nav className="hidden md:flex items-center gap-10">
-            {['Shop', 'Collections', 'New Arrivals', 'Wholesale'].map((item) => (
-              <a key={item} className="text-[11px] font-bold hover:text-accent transition-colors uppercase tracking-[0.2em]" href="#">{item}</a>
+            {category.map((item) => (
+              <Link key={item} className="text-[11px] font-bold hover:text-accent transition-colors uppercase tracking-[0.2em]" href={`/products/category/${item}`}>{item}</Link>
             ))}
           </nav>
         </div>
@@ -31,11 +34,7 @@ const Header = () => {
               <span className="material-symbols-outlined text-2xl group-hover:text-accent transition-colors">shopping_cart</span>
               <span className="absolute -top-2 -right-2 bg-primary text-[9px] w-4 h-4 rounded-full flex items-center justify-center font-bold">4</span>
             </button>
-            <Link href="/login">
-              <button className="group">
-                <span className="material-symbols-outlined text-2xl group-hover:text-accent transition-colors">account_circle</span>
-              </button>
-            </Link>
+            <IconLinkBtn href="/login" icon="account_circle"/>
           </div>
         </div>
       </div>
