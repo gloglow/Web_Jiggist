@@ -16,7 +16,7 @@ const Header = () => {
           </div>
           <nav className="hidden md:flex items-center gap-10">
             {category.map((item) => (
-              <Link key={item} className="text-[11px] font-bold hover:text-accent transition-colors uppercase tracking-[0.2em]" href={`/products/category/${item}`}>{item}</Link>
+              <Link key={item} className="text-[11px] font-bold hover:text-accent transition-colors uppercase tracking-[0.2em]" href={`/products/${item}`}>{item}</Link>
             ))}
           </nav>
         </div>
