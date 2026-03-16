@@ -1,6 +1,6 @@
-import { CheckboxesProps } from "../../../../types/propTypes";
+import { ButtonsProps } from "../../../../types/propTypes";
 
-export default function CheckFilter(props: CheckboxesProps) {
+export default function ButtonsFilter(props: ButtonsProps) {
   return (
     <div className="flex flex-col gap-4">
       <h4 className="text-slate-200 text-sm font-semibold flex items-center gap-2">

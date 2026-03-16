@@ -1,10 +1,10 @@
 export type FilterSidebarProps = {
-  subcategoryInfo: DropdownProps,
+  subcategoryInfo: ButtonsProps,
   brandInfo: CheckboxesProps,
   priceInfo: PriceSliderProps
 }
 
-export type DropdownProps = {
+export type ButtonsProps = {
   options: string[]
 }
 

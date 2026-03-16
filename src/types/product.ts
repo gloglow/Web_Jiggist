@@ -1,10 +1,6 @@
-import { stringConcat } from "firebase/firestore/pipelines"
+import { Locale } from "@/types/locale"
 
-export type LocaleString {
-  en: string
-  ja: string
-  ko: string
-}
+export type LocaleString = Record<Locale, string>
 
 export type Rating {
   rateAvg: number

@@ -1,16 +1,15 @@
 import { adminDb } from "../../lib/firebase/admin"
 import { Query, QuerySnapshot } from "firebase-admin/firestore"
-import { getAggregateFromServer } from "firebase/firestore"
-import { CheckboxesProps, DropdownProps, FilterSidebarProps, PriceSliderProps } from "../types/propTypes"
+import { CheckboxesProps, FilterSidebarProps, PriceSliderProps } from "../types/propTypes"
 import toProduct from "@/mappers/mapProduct"
 import Product, { Category } from "@/types/product"
 
-type ProductPage = {
+export type ProductPage = {
   products: Product[]
   nextCursor: number | null
 }
 
-type ProductQuery = {
+export type ProductQuery = {
   name?: string,
   minPrice?: number,
   maxPrice?: number,
@@ -19,7 +18,7 @@ type ProductQuery = {
   subcategory?: string,
   tags?: string[],
 
-  sortBy?: "price" | "createdAt",
+  sortBy?: "price",
   sortOrder?: "asc" | "desc",
 
   limit?: number,
@@ -58,7 +57,7 @@ export async function getProductsPage(
   }
 
   ref = ref
-    .orderBy(sortBy ?? "createdBy", sortOrder ?? "asc")
+    .orderBy(sortBy ?? "price", sortOrder ?? "asc")
     .orderBy("__name__", sortOrder)
     .limit(limit ?? 6);
 
