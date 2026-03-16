@@ -8,7 +8,7 @@ export default function CheckBoxesFilter(props: CheckBoxesProps) {
       </h4>
       <div className="flex flex-col gap-2">
         {props.options.map((option) => (
-          <label className="flex items-center gap-3 cursor-pointer group">
+          <label className="flex items-center gap-3 cursor-pointer group" key={option}>
             <div className="w-5 h-5 rounded border border-border-muted bg-neutral-dark flex items-center justify-center group-hover:border-primary transition-colors">
               <div className="w-2 h-2 rounded-sm bg-primary opacity-0 check-mark"></div>
             </div>

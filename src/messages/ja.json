@@ -1,0 +1,43 @@
+{
+  "common": {
+    "apply": "適用",
+    "addToCart": "カートに追加",
+    "yen": "¥"
+  },
+  "category": {
+    "liquor": "リキュール",
+    "ingredient": "材料",
+    "tool": "ツール",
+    "accessory": "アクセサリー"
+  },
+  "products": {
+    "liquor": {
+      "title": "カクテルを支えるスピリッツ",
+      "description": "力強いウイスキーから洗練されたジン、なめらかなラムまで。すべての特別なカクテルの中心となるプレミアムスピリッツをご紹介します。"
+    },
+    "ingredient": {
+      "title": "風味を生み出す素材",
+      "description": "フレッシュフルーツ、シロップ、ミキサーなど、カクテルにバランスと香り、個性を加える重要な材料。"
+    },
+    "tool": {
+      "title": "プロフェッショナルツール",
+      "description": "本格的なバーテンダーのための必須ツール。"
+    },
+    "accessory": {
+      "title": "仕上げのアクセント",
+      "description": "プレゼンテーションと使いやすさを高める、洗練されたバーアクセサリー。"
+    },
+    "sort": {
+      "label": "Sort by: ",
+      "featured": "おすすめ"
+    },
+    "filters": {
+      "title": "フィルター",
+      "clearAll": "すべてクリア",
+      "category": "カテゴリー",
+      "brand": "ブランド",
+      "priceRange": "価格帯",
+      "applyFilters": "フィルターを適用"
+    }
+  }
+}

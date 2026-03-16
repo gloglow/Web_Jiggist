@@ -1,0 +1,43 @@
+{
+  "common": {
+    "apply": "적용",
+    "addToCart": "장바구니 담기",
+    "yen": "¥"
+  },
+  "category": {
+    "liquor": "주류",
+    "ingredient": "재료",
+    "tool": "도구",
+    "accessory": "액세서리"
+  },
+  "products": {
+    "liquor": {
+      "title": "훌륭한 칵테일의 시작, 스피릿",
+      "description": "풍부한 위스키부터 세련된 진, 부드러운 럼까지 — 모든 특별한 칵테일의 중심이 되는 프리미엄 스피릿을 만나보세요."
+    },
+    "ingredient": {
+      "title": "풍미를 완성하는 재료",
+      "description": "신선한 과일, 시럽, 믹서 등 칵테일에 균형과 향, 개성을 더해주는 필수 재료들."
+    },
+    "tool": {
+      "title": "프로페셔널 바텐딩 도구",
+      "description": "진지한 바텐더를 위한 필수 장비."
+    },
+    "accessory": {
+      "title": "완성도를 높이는 디테일",
+      "description": "프레젠테이션과 편의성을 높여주는 세련된 바 액세서리."
+    },
+    "sort": {
+      "label": "Sort by: ",
+      "featured": "추천순"
+    },
+    "filters": {
+      "title": "필터",
+      "clearAll": "전체 초기화",
+      "category": "카테고리",
+      "brand": "브랜드",
+      "priceRange": "가격 범위",
+      "applyFilters": "필터 적용"
+    }
+  }
+}

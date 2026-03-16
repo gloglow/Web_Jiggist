@@ -3,15 +3,12 @@ import { getFilterProps, getProductsPage, ProductQuery } from "../../../../repos
 import CategoryHero from "../../../components/category/CategoryHero"
 import FilterSidebar from "../../../components/category/FilterSidebar/FilterSidebar";
 import ProductGrid from "@/app/components/category/ProductGrid";
-import { Locale } from "@/types/locale"
 
 export default async function Products({
   params }: {
-    params: Promise<{ locale: Locale; category: string }>
+    params: Promise<{ category: string }>
   }) {
   const category = (await params).category;
-  const locale = (await params).locale;
-
   const filterSidebarProps = await getFilterProps(category as Category);
 
   const query: ProductQuery = {
@@ -33,14 +30,15 @@ export default async function Products({
 
   return (
     <main className="max-w-7xl mx-auto w-full px-6 md:px-16 py-10">
-      <CategoryHero />
+      <CategoryHero
+        category={category}
+      />
       <div className="flex flex-col lg:flex-row gap-10">
         <FilterSidebar
           {...filterSidebarProps}
         />
         <ProductGrid
-          productPage={productPage}
-          locale={locale}
+          {...productPage}
         />
       </div>
     </main>

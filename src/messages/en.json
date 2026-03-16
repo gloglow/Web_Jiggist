@@ -1,0 +1,43 @@
+{
+  "common": {
+    "apply": "Apply",
+    "addToCart": "Add to Cart",
+    "yen": "¥"
+  },
+  "category": {
+    "liquor": "Liquor",
+    "ingredient": "Ingredient",
+    "tool": "Tool",
+    "accessory": "Accessory"
+  },
+  "products": {
+    "liquor": {
+      "title": "The Spirit of Great <highlight>Cocktails</highlight>",
+      "description": "From bold whiskies to refined gins and smooth rums, discover premium spirits that form the heart of every exceptional cocktail."
+    },
+    "ingredient": {
+      "title": "Flavor <highlight>Foundations</highlight>",
+      "description": "Fresh fruits, syrups, and mixers that bring balance, aroma, and character to every cocktail."
+    },
+    "tool": {
+      "title": "Professional <highlight>Tools</highlight>",
+      "description": "Essential equipment for serious bartenders."
+    },
+    "accessory": {
+      "title": "Finishing <highlight>Touches</highlight>",
+      "description": "Elegant bar accessories that enhance presentation, convenience, and the overall drinking experience."
+    },
+    "sort": {
+      "label": "Sort by: ",
+      "featured": "Featured"
+    },
+    "filters": {
+      "title": "FILTERS",
+      "clearAll": "Clear All",
+      "category": "Category",
+      "brand": "Brand",
+      "priceRange": "Price Range",
+      "applyFilters": "Apply Filters"
+    }
+  }
+}

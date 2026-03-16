@@ -1,6 +1,6 @@
 export type FilterSidebarProps = {
   subcategoryInfo: ButtonsProps,
-  brandInfo: CheckboxesProps,
+  brandInfo: CheckBoxesProps,
   priceInfo: PriceSliderProps
 }
 
@@ -8,7 +8,7 @@ export type ButtonsProps = {
   options: string[]
 }
 
-export type CheckboxesProps = {
+export type CheckBoxesProps = {
   options: string[]
 }
 

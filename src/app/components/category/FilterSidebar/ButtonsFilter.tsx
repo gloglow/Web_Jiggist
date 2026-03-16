@@ -9,7 +9,8 @@ export default function ButtonsFilter(props: ButtonsProps) {
       <div className="flex flex-wrap gap-2">
         {props.options.map((option) => (
           <button
-            className="px-3 py-1.5 rounded-full bg-neutral-dark border border-border-muted text-slate-400 text-xs font-medium hover:text-slate-100 transition-colors">
+            className="px-3 py-1.5 rounded-full bg-neutral-dark border border-border-muted text-slate-400 text-xs font-medium hover:text-slate-100 transition-colors"
+            key={option}>
             {option}
           </button>
         ))}
