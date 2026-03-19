@@ -29,7 +29,9 @@
     },
     "sort": {
       "label": "Sort by: ",
-      "featured": "Featured"
+      "alphabetical": "Alphabetical",
+      "priceAsc": "Price (Ascending)",
+      "priceDesc": "Price (Descending)"
     },
     "filters": {
       "title": "FILTERS",

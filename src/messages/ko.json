@@ -29,7 +29,9 @@
     },
     "sort": {
       "label": "Sort by: ",
-      "featured": "추천순"
+      "alphabetical": "이름순",
+      "priceAsc": "낮은 가격순",
+      "priceDesc": "높은 가격순"
     },
     "filters": {
       "title": "필터",

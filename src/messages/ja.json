@@ -29,7 +29,9 @@
     },
     "sort": {
       "label": "Sort by: ",
-      "featured": "おすすめ"
+      "alphabetical": "名前順",
+      "priceAsc": "価格の安い順",
+      "priceDesc": "価格の高い順"
     },
     "filters": {
       "title": "フィルター",

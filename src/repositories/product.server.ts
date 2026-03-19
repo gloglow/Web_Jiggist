@@ -1,42 +1,43 @@
 import { adminDb } from "../../lib/firebase/admin"
 import { Query, QuerySnapshot } from "firebase-admin/firestore"
-import { CheckboxesProps, FilterSidebarProps, PriceSliderProps } from "../types/propTypes"
+import { ButtonsProps, CheckBoxesProps, FilterInfo, FilterSidebarProps, PriceSliderProps } from "../types/propTypes"
 import toProduct from "@/mappers/mapProduct"
 import Product, { Category } from "@/types/product"
 
+type Props = {
+  query: ProductQuery,
+  locale: string
+}
+
 export type ProductPage = {
   products: Product[]
-  nextCursor: number | null
+  nextCursor: [number, string] | null;
 }
 
 export type ProductQuery = {
   name?: string,
-  minPrice?: number,
-  maxPrice?: number,
-  brand?: string,
+  priceRange?: [number, number],
+  brand?: string[],
   category?: string,
-  subcategory?: string,
+  subcategory?: string[],
   tags?: string[],
 
-  sortBy?: "price",
-  sortOrder?: "asc" | "desc",
+  sortBy?: string,
 
   limit?: number,
-  cursor?: number
+  cursor?: [number, string];
 }
 
 export async function getProductsPage(
-  query: ProductQuery = {}
+  { query, locale }: Props
 ): Promise<ProductPage> {
   const {
     name,
-    minPrice,
-    maxPrice,
+    priceRange,
     brand,
     category,
     subcategory,
     sortBy,
-    sortOrder,
     limit,
     cursor
   } = query;
@@ -44,37 +45,61 @@ export async function getProductsPage(
   let ref: Query = adminDb.collection("products");
 
   const conditions = [
-    query.name && ["name", "==", query.name],
-    query.minPrice && ["price", ">=", query.minPrice],
-    query.maxPrice && ["price", "<=", query.maxPrice],
-    query.brand && ["brand", "==", query.brand],
-    query.category && ["category", "==", query.category],
-    query.subcategory && ["subcategory", "==", query.subcategory],
-  ].filter(Boolean) as [string, FirebaseFirestore.WhereFilterOp, any][]
+    name ? ["name", "==", name] : null,
+    priceRange?.length === 2 ? ["price", ">=", Number(priceRange[0])] : null,
+    priceRange?.length === 2 ? ["price", "<=", Number(priceRange[1])] : null,
+    brand?.length ? ["brand", "in", brand] : null,
+    category ? ["category", "==", category] : null,
+    subcategory?.length ? ["subcategory", "in", subcategory] : null,
+  ].filter(
+    (v): v is [string, FirebaseFirestore.WhereFilterOp, any] => v !== null
+  );
 
   for (const [field, op, value] of conditions) {
     ref = ref.where(field, op, value);
   }
 
+  if (sortBy) {
+    switch (sortBy) {
+      case "alphabetical":
+        switch (locale) {
+          case "en":
+            ref = ref.orderBy("name.en");
+            break;
+          case "ko":
+            ref = ref.orderBy("name.ko");
+            break;
+          case "ja":
+            ref = ref.orderBy("name.ja");
+            break;
+        }
+        break;
+      case "priceAsc":
+        ref = ref.orderBy("price", "asc");
+        break;
+      case "priceDesc":
+        ref = ref.orderBy("price", "desc");
+        break;
+    }
+  }
+
   ref = ref
-    .orderBy(sortBy ?? "price", sortOrder ?? "asc")
-    .orderBy("__name__", sortOrder)
     .limit(limit ?? 6);
 
   if (cursor) {
-    ref = ref.startAfter(cursor);
+    ref = ref.startAfter(...cursor);
   }
 
-  const snapshot = ref.get();
-  const docs = (await snapshot).docs;
+  const snapshot = await (ref.get());
+  const docs = snapshot.docs;
 
   const products = docs.map(toProduct);
 
   const lastDoc = docs[docs.length - 1];
 
-  const nextCursor = lastDoc
-    ? lastDoc.data().createdAt
-    : null
+  const nextCursor: [number, string] | null = lastDoc
+    ? [lastDoc.data().price, lastDoc.id]
+    : null;
 
   return {
     products,
@@ -82,40 +107,34 @@ export async function getProductsPage(
   };
 }
 
-export async function getFilterProps(
-  category: Category): Promise<FilterSidebarProps> {
+export async function getFilterInfo(
+  category: Category): Promise<FilterInfo> {
   // 関数
-  const getSubcategory = (products: Product[]): DropdownProps => {
+  const getSubcategory = (products: Product[]): string[] => {
     const options = [
       ...new Set(products.map(product => product.subcategory))
     ];
-    return { options }
+    return options
   }
 
-  const getBrand = (products: Product[]): CheckboxesProps => {
+  const getBrand = (products: Product[]): string[] => {
     const options = [
       ...new Set(products.map(product => product.brand))
     ];
-    return { options }
+    return options
   }
 
-  const getPriceRange = (products: Product[]): PriceSliderProps => {
+  const getMaxPrice = (products: Product[]): number => {
     products.sort((a: Product, b: Product) => {
       return a.price - b.price;
     })
 
-    const minPrice = products[0].price;
-    const maxPrice = products[products.length - 1].price;
-
-    return {
-      minPrice,
-      maxPrice
-    };
+    return products[products.length - 1].price;
   }
 
   let query: Query = adminDb.collection("products");
 
-  if(category){
+  if (category) {
     query = query.where("category", "==", category);
   }
 
@@ -123,8 +142,8 @@ export async function getFilterProps(
   const products = snapshot.docs.map(toProduct);
 
   return {
-    subcategoryInfo: getSubcategory(products),
-    brandInfo: getBrand(products),
-    priceInfo: getPriceRange(products)
+    subcategories: getSubcategory(products),
+    brands: getBrand(products),
+    maxPrice: getMaxPrice(products)
   };
 }

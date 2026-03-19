@@ -8,11 +8,13 @@ export default async function ProductGrid(productPage: ProductPage) {
 
   return (
     <div className="flex-1">
-      <SortDropDown/>
+      <div className="flex justify-end mb-4">
+        <SortDropDown />
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
         {products.map((product) => (
           <div key={product.id}>
-            <ProductCard {...product}/>
+            <ProductCard {...product} />
           </div>
         ))}
       </div>
