@@ -7,6 +7,7 @@ import { FilterSidebarProps } from "../../../../types/propTypes"
 import { useEffect, useState } from "react"
 import CheckBoxesFilter from "./CheckBoxesFilter"
 import { usePathname, useRouter } from "next/navigation"
+import SearchInput from "./SearchInput"
 
 export default function FilterSidebar({ category, info, selected }: FilterSidebarProps) {
   const router = useRouter();
@@ -15,6 +16,7 @@ export default function FilterSidebar({ category, info, selected }: FilterSideba
   const [selectedSubcategories, setSelectedSubcategories] = useState<string[]>([]);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [selectedPriceRange, setSelectedPriceRange] = useState<[number, number]>([0, info.maxPrice]);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     setSelectedSubcategories(selected.subcategories)
@@ -24,6 +26,10 @@ export default function FilterSidebar({ category, info, selected }: FilterSideba
 
   const handleApply = () => {
     const params = new URLSearchParams();
+
+    if(search.length > 0) {
+      params.set("search", search);
+    }
 
     if (selectedSubcategories.length > 0) {
       params.set("subcategories", selectedSubcategories.join(","));
@@ -44,6 +50,7 @@ export default function FilterSidebar({ category, info, selected }: FilterSideba
       <div className="sticky top-28 flex flex-col gap-8">
         <FilterHeader />
         <div className="flex flex-col gap-8">
+          {/* <SearchInput value={search} onChange={setSearch}/> */}
           <CheckBoxesFilter
             options={info.subcategories}
             selected={selectedSubcategories}

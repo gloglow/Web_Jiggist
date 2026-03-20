@@ -41,5 +41,17 @@
       "priceRange": "Price Range",
       "applyFilters": "Apply Filters"
     }
+  },
+  "signUp": {
+    "title": "Sign Up",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "primaryBar": "Primary Bar / Establishment (Optional)",
+    "termsOfConduct": "I acknowledge that membership is a privilege and agree to uphold the standards of the guild's Terms of Conduct.",
+    "signUp": "Sign Up",
+    "orContinueWith": "Or Continue With",
+    "google": "Google"
   }
 }

@@ -2,7 +2,7 @@ import { Locale } from "@/types/locale"
 
 export type LocaleString = Record<Locale, string>
 
-export type Rating {
+export type Rating = {
   rateAvg: number
   rateCount: number
 }
@@ -13,7 +13,7 @@ export type Category =
   "tool" |
   "accessory"
 
-export type FirestoreProduct {
+export type FirestoreProduct = {
   brand: string
   category: string
   description: LocaleString

@@ -5,11 +5,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation"
 
 const options = ["alphabetical", "priceAsc", "priceDesc"];
 
-type Props = {
-  onChange: (value: string) => void
-}
-
-export default function SortDropDown({ onChange }: Props) {
+export default function SortDropDown() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();

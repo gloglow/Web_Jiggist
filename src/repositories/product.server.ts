@@ -11,7 +11,6 @@ type Props = {
 
 export type ProductPage = {
   products: Product[]
-  nextCursor: [number, string] | null;
 }
 
 export type ProductQuery = {
@@ -21,11 +20,11 @@ export type ProductQuery = {
   category?: string,
   subcategory?: string[],
   tags?: string[],
-
+  search?: string,
   sortBy?: string,
 
   limit?: number,
-  cursor?: [number, string];
+  page?: number
 }
 
 export async function getProductsPage(
@@ -33,13 +32,14 @@ export async function getProductsPage(
 ): Promise<ProductPage> {
   const {
     name,
+    search,
     priceRange,
     brand,
     category,
     subcategory,
     sortBy,
     limit,
-    cursor
+    page
   } = query;
 
   let ref: Query = adminDb.collection("products");
@@ -59,20 +59,24 @@ export async function getProductsPage(
     ref = ref.where(field, op, value);
   }
 
+  const alphabeticalSort = () => {
+    switch (locale) {
+      case "en":
+        ref = ref.orderBy("name.en");
+        break;
+      case "ko":
+        ref = ref.orderBy("name.ko");
+        break;
+      case "ja":
+        ref = ref.orderBy("name.ja");
+        break;
+    }
+  }
+
   if (sortBy) {
     switch (sortBy) {
       case "alphabetical":
-        switch (locale) {
-          case "en":
-            ref = ref.orderBy("name.en");
-            break;
-          case "ko":
-            ref = ref.orderBy("name.ko");
-            break;
-          case "ja":
-            ref = ref.orderBy("name.ja");
-            break;
-        }
+        alphabeticalSort();
         break;
       case "priceAsc":
         ref = ref.orderBy("price", "asc");
@@ -82,28 +86,25 @@ export async function getProductsPage(
         break;
     }
   }
+  else {
+    alphabeticalSort();
+  }
 
   ref = ref
-    .limit(limit ?? 6);
-
-  if (cursor) {
-    ref = ref.startAfter(...cursor);
-  }
+    .limit(limit && page
+      ? limit * (page + 1)
+      : 6
+    );
 
   const snapshot = await (ref.get());
   const docs = snapshot.docs;
 
-  const products = docs.map(toProduct);
-
-  const lastDoc = docs[docs.length - 1];
-
-  const nextCursor: [number, string] | null = lastDoc
-    ? [lastDoc.data().price, lastDoc.id]
-    : null;
+  const products = limit && page
+  ? docs.slice(limit * page, limit * (page + 1)).map(toProduct)
+  : docs.slice(0, 6).map(toProduct);
 
   return {
-    products,
-    nextCursor
+    products
   };
 }
 
@@ -146,4 +147,42 @@ export async function getFilterInfo(
     brands: getBrand(products),
     maxPrice: getMaxPrice(products)
   };
+}
+
+export async function getProductsMaxPage(
+  query: ProductQuery
+): Promise<number> {
+  const {
+    name,
+    search,
+    priceRange,
+    brand,
+    category,
+    subcategory,
+    sortBy,
+    limit,
+    page
+  } = query;
+
+  let ref: Query = adminDb.collection("products");
+
+  const conditions = [
+    name ? ["name", "==", name] : null,
+    priceRange?.length === 2 ? ["price", ">=", Number(priceRange[0])] : null,
+    priceRange?.length === 2 ? ["price", "<=", Number(priceRange[1])] : null,
+    brand?.length ? ["brand", "in", brand] : null,
+    category ? ["category", "==", category] : null,
+    subcategory?.length ? ["subcategory", "in", subcategory] : null,
+  ].filter(
+    (v): v is [string, FirebaseFirestore.WhereFilterOp, any] => v !== null
+  );
+
+  for (const [field, op, value] of conditions) {
+    ref = ref.where(field, op, value);
+  }
+
+  const snapshot = await (ref.count()).get();
+  const maxPage = Math.floor((snapshot.data().count - 1) / 6) + 1;
+
+  return maxPage;
 }
