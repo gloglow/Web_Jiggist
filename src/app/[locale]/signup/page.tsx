@@ -1,75 +1,189 @@
 'use client'
+import Navigation from "@/app/components/navigation";
 import { useTranslations } from "next-intl"
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { createSignUpSchema, SignUpForm } from "@/schemas/auth.schema";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../../../../lib/firebase/client";
+import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { createUser } from "@/repositories/user.client";
+import { user } from "@/types/user";
 
 export default function SignUp() {
+  const t = useTranslations("signUp");
+  const schema = createSignUpSchema(t);
+
+  const {
+    register,
+    handleSubmit,
+    setError,
+    formState: { errors },
+  } = useForm<SignUpForm>({
+    resolver: zodResolver(schema),
+    mode: "onBlur",
+  });
+
   const signUpT = useTranslations("signUp");
+
+  const onSubmit = async (data: SignUpForm) => {
+    try {
+      const result = await createUserWithEmailAndPassword(
+        auth,
+        data.email,
+        data.password
+      );
+      if (data.email && data.full_name) {
+        const userData: user = {
+          uid: result.user.uid,
+          email: data.email,
+          name: data.full_name,
+          address: "",
+          isAdminister: false
+        };
+        await createUser(userData);
+      }
+    } catch (error: any) {
+      if (error.code === "auth/email-already-in-use") {
+        setError("email", {
+          message: "Email already exist"
+        });
+      }
+    }
+  }
+
+  const handleGoogleSignIn = async () => {
+    try {
+      const provider = new GoogleAuthProvider();
+      const result = await signInWithPopup(auth, provider);
+
+      const user = result.user;
+
+      if (user.email && user.displayName) {
+        const userData: user = {
+          uid: user.uid,
+          email: user.email,
+          name: user.displayName,
+          address: "",
+          isAdminister: false
+        };
+        await createUser(userData);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  }
 
   return (
     <main className="max-w-7xl mx-auto w-full px-6 md:px-16 py-10">
       <div className="flex flex-col gap-6 mb-12">
-        <nav className="flex items-center gap-2 text-sm text-slate-500">
-          <a className="hover:text-primary transition-colors" href="#">Home</a>
-          <span className="material-symbols-outlined text-xs">chevron_right</span>
-          <span className="text-slate-300">{signUpT("title")}</span>
-        </nav>
-        <div className="flex flex-col gap-6 mt-10 mb-10 ml-80 mr-80">
+        <Navigation
+          pageName="signUp"
+        />
+        <div className="flex flex-col gap-6 mt-10 mb-10 mx-4 md:mx-20 lg:mx-70">
           <div className="mb-16 text-center">
             <span className="text-primary/80 font-label text-xs tracking-[0.4em] uppercase text-outline mb-4 block">Jiggist</span>
             <h1 className="font-headline text-5xl md:text-6xl font-light text-on-surface leading-tight">{signUpT("title")}</h1>
-            <div className="mt-8 flex items-center justify-center gap-4">
-              <div className="h-px w-12 bg-outline/20"></div>
-              <div className="h-px w-12 bg-outline/20"></div>
-            </div>
           </div>
-          <form className="space-y-8">
+          <form className="space-y-8" onSubmit={handleSubmit(onSubmit)}>
             <div className="group">
               <label className="font-label text-[10px] tracking-[0.2em] uppercase text-on-surface-variant mb-2 block group-focus-within:text-primary transition-colors">{signUpT("fullName")}</label>
-              <input className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface placeholder:text-outline/40 focus:ring-0 focus:border-primary focus:shadow-[0_0_8px_rgba(233,195,73,0.1)] transition-all outline-none" id="full_name" name="full_name" placeholder="E.g. Sterling Archer" type="text" />
+              <input
+                {...register("full_name")}
+                className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface placeholder:text-outline/40 focus:ring-0 focus:border-primary focus:shadow-[0_0_8px_rgba(233,195,73,0.1)] transition-all outline-none"
+                placeholder="Kim Duck Chill" type="text"
+              />
+              {errors.full_name && (
+                <p className="text-red-400 text-xs mt-1">
+                  {errors.full_name.message}
+                </p>
+              )}
             </div>
             <div className="group">
               <label className="font-label text-[10px] tracking-[0.2em] uppercase text-on-surface-variant mb-2 block group-focus-within:text-primary transition-colors">{signUpT("email")}</label>
-              <input className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface placeholder:text-outline/40 focus:ring-0 focus:border-primary focus:shadow-[0_0_8px_rgba(233,195,73,0.1)] transition-all outline-none" id="email" name="email" placeholder="credentials@exclusive.com" type="email" />
+              <input
+                {...register("email")}
+                className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface placeholder:text-outline/40 focus:ring-0 focus:border-primary focus:shadow-[0_0_8px_rgba(233,195,73,0.1)] transition-all outline-none"
+                placeholder="duck_seven@jiggist.com" type="email"
+              />
+              {errors.email && (
+                <p className="text-red-400 text-xs mt-1">
+                  {errors.email.message}
+                </p>
+              )}
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="group">
                 <label className="font-label text-[10px] tracking-[0.2em] uppercase text-on-surface-variant mb-2 block group-focus-within:text-primary transition-colors">{signUpT("password")}</label>
-                <input className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface focus:ring-0 focus:border-primary transition-all outline-none" id="password" name="password" type="password" />
+                <input
+                  {...register("password")}
+                  className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface focus:ring-0 focus:border-primary transition-all outline-none"
+                  type="password"
+                />
               </div>
               <div className="group">
                 <label className="font-label text-[10px] tracking-[0.2em] uppercase text-on-surface-variant mb-2 block group-focus-within:text-primary transition-colors">{signUpT("confirmPassword")}</label>
-                <input className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface focus:ring-0 focus:border-primary transition-all outline-none" id="confirm_password" name="confirm_password" type="password" />
+                <input
+                  {...register("confirm_password")}
+                  className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface focus:ring-0 focus:border-primary transition-all outline-none"
+                  type="password"
+                />
               </div>
             </div>
+            {(errors.password || errors.confirm_password) && (
+              <p className="text-red-400 text-xs mt-2 md:col-span-2">
+                {errors.password?.message || errors.confirm_password?.message}
+              </p>
+            )}
             <div className="group">
               <label className="font-label text-[10px] tracking-[0.2em] uppercase text-on-surface-variant mb-2 block group-focus-within:text-primary transition-colors">{signUpT("primaryBar")}</label>
-              <input className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface placeholder:text-outline/40 focus:ring-0 focus:border-primary transition-all outline-none" id="establishment" name="establishment" placeholder="The Gilded Shaker" type="text" />
+              <input
+                className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface placeholder:text-outline/40 focus:ring-0 focus:border-primary transition-all outline-none"
+                placeholder="The Gilded Shaker" type="text"
+              />
             </div>
             <div className="flex items-start gap-4 py-2">
               <div className="relative flex items-center h-5">
-                <input className="h-4 w-4 bg-surface-container-low border-outline-variant/40 rounded text-primary focus:ring-primary focus:ring-offset-surface" id="terms" name="terms" type="checkbox" />
+                <input
+                  {...register("terms")}
+                  className="h-4 w-4 bg-surface-container-low border-outline-variant/40 rounded text-primary focus:ring-primary focus:ring-offset-surface"
+                  type="checkbox"
+                />
               </div>
               <label className="text-xs text-on-surface-variant leading-relaxed">
-                {signUpT("termsOfConduct")} <a className="text-primary hover:underline decoration-primary/30 underline-offset-4" href="#">Terms of Conduct</a>.
+                {signUpT("termsOfService")} <a className="text-primary hover:underline decoration-primary/30 underline-offset-4" href="#">Terms of Conduct</a>.
               </label>
             </div>
-            <div className="">
-              <button className="metallic-button w-full py-5 rounded-md text-on-primary font-label text-sm tracking-[0.3em] font-bold uppercase shadow-xl shadow-black/40 hover:brightness-110 active:scale-[0.98] transition-all flex items-center justify-center" type="submit">
+            {errors.terms && (
+              <p className="text-red-400 text-xs mt-1">
+                {errors.terms.message}
+              </p>
+            )}
+            <div>
+              <button
+                className="metallic-button w-full py-5 rounded-md text-on-primary font-label text-sm tracking-[0.3em] font-bold uppercase shadow-xl shadow-black/40 
+  bg-neutral-900 hover:bg-neutral-700 active:bg-neutral-600 
+  transition-all flex items-center justify-center"
+                type="submit"
+              >
                 {signUpT("signUp")}
                 <span className="material-symbols-outlined text-lg" data-icon="chevron_right">chevron_right</span>
               </button>
             </div>
           </form>
           <div className="flex items-center my-8">
-            <div className="flex-1 border-t border-border-muted"></div>
-
+            <div className="grow border-t border-border-muted"></div>
             <span className="px-4 text-xs uppercase font-bold tracking-widest bg-neutral-dark">
               {signUpT("orContinueWith")}
             </span>
-
-            <div className="flex-1 border-t border-border-muted"></div>
+            <div className="grow border-t border-border-muted"></div>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <button className="flex items-center justify-center gap-2 py-3 px-4 border border-border-muted rounded-lg hover:bg-white/5 transition-colors">
+            <button
+              type="button"
+              onClick={handleGoogleSignIn}
+              className="flex items-center justify-center gap-2 py-3 px-4 border border-border-muted rounded-lg hover:bg-white/5 transition-colors"
+            >
               <svg className="size-5" viewBox="0 0 24 24">
                 <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path>
                 <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path>

@@ -4,6 +4,13 @@
     "addToCart": "Add to Cart",
     "yen": "¥"
   },
+  "navigation": {
+    "liquor": "Liquor",
+    "ingredient": "Ingredient",
+    "tool": "Tool",
+    "accessory": "Accessory",
+    "signUp": "Sign Up"
+  },
   "category": {
     "liquor": "Liquor",
     "ingredient": "Ingredient",
@@ -45,11 +52,16 @@
   "signUp": {
     "title": "Sign Up",
     "fullName": "Full Name",
+    "fullNameValidation": "Please enter your name",
     "email": "Email Address",
+    "emailValidation": "Please enter valid email address",
     "password": "Password",
+    "passwordValidation": "Please enter a combination of letters and numbers.",
     "confirmPassword": "Confirm Password",
+    "confirmPasswordValidation": "Please make sure your passwords match",
     "primaryBar": "Primary Bar / Establishment (Optional)",
-    "termsOfConduct": "I acknowledge that membership is a privilege and agree to uphold the standards of the guild's Terms of Conduct.",
+    "termsOfService": "I agree to the Terms of Service and Privacy Policy.",
+    "termsOfServiceValidation": "Please agree to the Terms of Service",
     "signUp": "Sign Up",
     "orContinueWith": "Or Continue With",
     "google": "Google"
