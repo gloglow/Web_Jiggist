@@ -1,13 +1,8 @@
 import { adminDb } from "../../lib/firebase/admin"
-import { Query, QuerySnapshot } from "firebase-admin/firestore"
+import { FieldPath, Query, QuerySnapshot } from "firebase-admin/firestore"
 import { ButtonsProps, CheckBoxesProps, FilterInfo, FilterSidebarProps, PriceSliderProps } from "../types/propTypes"
 import toProduct from "@/mappers/mapProduct"
 import Product, { Category } from "@/types/product"
-
-type Props = {
-  query: ProductQuery,
-  locale: string
-}
 
 export type ProductPage = {
   products: Product[]
@@ -28,7 +23,7 @@ export type ProductQuery = {
 }
 
 export async function getProductsPage(
-  { query, locale }: Props
+  { query, locale }: { query: ProductQuery, locale: string }
 ): Promise<ProductPage> {
   const {
     name,
@@ -100,12 +95,22 @@ export async function getProductsPage(
   const docs = snapshot.docs;
 
   const products = limit && page
-  ? docs.slice(limit * page, limit * (page + 1)).map(toProduct)
-  : docs.slice(0, 6).map(toProduct);
+    ? docs.slice(limit * page, limit * (page + 1)).map(toProduct)
+    : docs.slice(0, 6).map(toProduct);
 
   return {
     products
   };
+}
+
+export async function getProduct(
+  productId: string
+) {
+  let ref: Query = adminDb.collection("products");
+  ref = ref.where(FieldPath.documentId(), "==", productId);
+  const snapShot = await ref.get();
+  const docs = snapShot.docs;
+  return toProduct(docs[0]);
 }
 
 export async function getFilterInfo(

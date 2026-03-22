@@ -1,15 +1,20 @@
 {
   "common": {
+    "jiggist": "Jiggist",
     "apply": "Apply",
     "addToCart": "Add to Cart",
-    "yen": "¥"
+    "yen": "¥",
+    "header": {
+      "jiggist": "Jiggist"
+    }
   },
   "navigation": {
     "liquor": "Liquor",
     "ingredient": "Ingredient",
     "tool": "Tool",
     "accessory": "Accessory",
-    "signUp": "Sign Up"
+    "signup": "Sign Up",
+    "login": "Login"
   },
   "category": {
     "liquor": "Liquor",
@@ -49,21 +54,53 @@
       "applyFilters": "Apply Filters"
     }
   },
+  "productDetail": {
+    "reviews": "reviews",
+    "reviewsCapital": "Reviews",
+    "yen": "¥",
+    "addToCart": "Add to Cart",
+    "purchase": "Purchase",
+    "dayaAto": "day ago",
+    "daysAgo": "days ago",
+    "monthAgo": "month ago",
+    "monthesAgo": "monthes ago",
+    "yearAgo": "year ago",
+    "yearsAgo": "years ago",
+    "writeAReview": "Write a review",
+    "shareYourExperience": "Share your experience...",
+    "submitReview": "Submit review"
+  },
   "signUp": {
     "title": "Sign Up",
     "fullName": "Full Name",
+    "egFullname": "Kim Duckchill",
     "fullNameValidation": "Please enter your name",
     "email": "Email Address",
+    "egEmail": "example@jiggist.com",
     "emailValidation": "Please enter valid email address",
     "password": "Password",
     "passwordValidation": "Please enter a combination of letters and numbers.",
     "confirmPassword": "Confirm Password",
     "confirmPasswordValidation": "Please make sure your passwords match",
     "primaryBar": "Primary Bar / Establishment (Optional)",
+    "egPrimaryBar": "The Hub",
     "termsOfService": "I agree to the Terms of Service and Privacy Policy.",
     "termsOfServiceValidation": "Please agree to the Terms of Service",
     "signUp": "Sign Up",
     "orContinueWith": "Or Continue With",
     "google": "Google"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email Address",
+    "egEmail": "example@jiggist.com",
+    "password": "Password",
+    "forgotPassword": "Forgot Password",
+    "login": "Login",
+    "orContinueWith": "Or Continue With",
+    "google": "Google",
+    "signupMessage": "Don't have an account?",
+    "signup": "Sign up",
+    "invalidAlert": "Invalid email or password"
   }
 }

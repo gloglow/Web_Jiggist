@@ -3,16 +3,19 @@ import { getFilterInfo, getProductsMaxPage, getProductsPage, ProductQuery } from
 import CategoryHero from "../../../components/category/CategoryHero"
 import FilterSidebar from "../../../components/category/FilterSidebar/FilterSidebar";
 import ProductGrid from "@/app/components/category/products/ProductGrid";
-import { FilterSidebarProps, FilterState } from "@/types/propTypes";
+import { FilterState } from "@/types/propTypes";
 import SortDropDown from "@/app/components/category/SortDropDown";
 import Pagination from "@/app/components/category/Pagination";
 
+type Props = {
+  params: Promise<{ category: string, locale: string }>,
+  searchParams: Promise<{ search?: string, subcategories?: string, brands?: string, minPrice?: number, maxPrice?: number, sort?: string, page?: number}>
+}
+
 export default async function Products({
   params,
-  searchParams }: {
-    params: Promise<{ category: string, locale: string }>
-    searchParams: Promise<{ search?: string, subcategories?: string, brands?: string, minPrice?: number, maxPrice?: number, sort?: string, page?: number }>
-  }) {
+  searchParams }: Props
+) {
   const category = (await params).category;
   const locale = (await params).locale;
 
@@ -72,7 +75,7 @@ export default async function Products({
             <ProductGrid
               {...productPage}
             />
-            <Pagination 
+            <Pagination
               page={page}
               maxPage={productsMaxPage}
             />

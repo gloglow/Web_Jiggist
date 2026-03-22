@@ -1,5 +1,4 @@
 'use client'
-import { ProductQuery } from "@/repositories/product.server";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 type Props = {

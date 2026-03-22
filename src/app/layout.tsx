@@ -1,4 +1,5 @@
 import { Space_Grotesk, Playfair_Display } from "next/font/google";
+import AuthProvider from "@/providers/AuthProvider";
 import "./../styles/globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -17,9 +18,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" />
       </head>
-      {/* 폰트 변수를 body에 주입 */}
       <body className={`${spaceGrotesk.variable} ${playfair.variable} bg-background-dark text-slate-100 font-display`}>
-        {children}
+        <AuthProvider>
+          {children}
+        </AuthProvider>
       </body>
     </html>
   );

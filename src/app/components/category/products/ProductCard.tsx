@@ -2,16 +2,19 @@
 import Product from "@/types/product";
 import { useTranslations } from "next-intl";
 import { t } from "../../../../../lib/i18n"
-import {useLocale} from 'next-intl';
+import { useLocale } from 'next-intl';
 import { Locale } from "@/types/locale";
+import { Link } from "../../../../../navigation";
 
 export default function ProductCard(product: Product) {
   const locale = useLocale() as Locale;
   const commonT = useTranslations("common");
 
   return (
-    <div className="group relative flex flex-col bg-neutral-dark rounded-xl border border-border-muted overflow-hidden hover:border-primary/50 transition-all duration-300"
-      key={product.id}>
+    <Link
+      href={`/products/detail/${product.id}`}
+      className="group relative flex flex-col bg-neutral-dark rounded-xl border border-border-muted overflow-hidden hover:border-primary/50 transition-all duration-300"
+    >
       <div className="aspect-4/5 overflow-hidden bg-background-dark relative">
         <img className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" data-alt="Professional copper cocktail shaker set on dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClNEz3Kyv7b9NfttHAaqzP3lmE_qaJA3xmscSBot2Hr3Rx8SOaxlyOQBRzvgzLw6Xna0TuwvUeeme8UWCTkyTyl4axu0z3PLQAss-ZC_jUqtYATbX-A21rW1HGQjJLY3_duLytmVBaFe_lxF6QhEYikJxM4m6h9PZ7zEwh3pVlAQC7RAU2XDeK4v_If99GHnJNMMnpoyOHMLKQHROHc9wkrNZkIUuNnV3oEfuJd92TYdZLoDb3Nf0S3tUCQ2sp7HkKxrpy8Ehs7Vo" />
         <div className="absolute inset-0 bg-linear-to-t from-background-dark/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
@@ -33,6 +36,6 @@ export default function ProductCard(product: Product) {
         </div>
         <p className="text-slate-400 text-xs line-clamp-2">{t(product.description, locale)}</p>
       </div>
-    </div>
+    </Link>
   );
 }

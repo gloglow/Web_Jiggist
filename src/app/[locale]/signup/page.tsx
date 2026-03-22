@@ -6,9 +6,11 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { createSignUpSchema, SignUpForm } from "@/schemas/auth.schema";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../../../lib/firebase/client";
-import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { createUser } from "@/repositories/user.client";
 import { user } from "@/types/user";
+import { loginWithGoogle } from "@/repositories/auth";
+
+const navigationProps = ["signup"];
 
 export default function SignUp() {
   const t = useTranslations("signUp");
@@ -45,19 +47,14 @@ export default function SignUp() {
       }
     } catch (error: any) {
       if (error.code === "auth/email-already-in-use") {
-        setError("email", {
-          message: "Email already exist"
-        });
+        alert("Email already exists.");
       }
     }
   }
 
   const handleGoogleSignIn = async () => {
     try {
-      const provider = new GoogleAuthProvider();
-      const result = await signInWithPopup(auth, provider);
-
-      const user = result.user;
+      const user = await loginWithGoogle();
 
       if (user.email && user.displayName) {
         const userData: user = {
@@ -69,8 +66,9 @@ export default function SignUp() {
         };
         await createUser(userData);
       }
+
     } catch (error) {
-      console.log(error);
+      alert("Google sign in failed.")
     }
   }
 
@@ -78,14 +76,17 @@ export default function SignUp() {
     <main className="max-w-7xl mx-auto w-full px-6 md:px-16 py-10">
       <div className="flex flex-col gap-6 mb-12">
         <Navigation
-          pageName="signUp"
+          pageArr={navigationProps}
         />
         <div className="flex flex-col gap-6 mt-10 mb-10 mx-4 md:mx-20 lg:mx-70">
           <div className="mb-16 text-center">
             <span className="text-primary/80 font-label text-xs tracking-[0.4em] uppercase text-outline mb-4 block">Jiggist</span>
             <h1 className="font-headline text-5xl md:text-6xl font-light text-on-surface leading-tight">{signUpT("title")}</h1>
           </div>
-          <form className="space-y-8" onSubmit={handleSubmit(onSubmit)}>
+          <form
+            className="space-y-8"
+            onSubmit={handleSubmit(onSubmit)}
+          >
             <div className="group">
               <label className="font-label text-[10px] tracking-[0.2em] uppercase text-on-surface-variant mb-2 block group-focus-within:text-primary transition-colors">{signUpT("fullName")}</label>
               <input
@@ -104,7 +105,8 @@ export default function SignUp() {
               <input
                 {...register("email")}
                 className="w-full bg-surface-container-low border border-outline-variant/20 px-4 py-4 rounded text-on-surface placeholder:text-outline/40 focus:ring-0 focus:border-primary focus:shadow-[0_0_8px_rgba(233,195,73,0.1)] transition-all outline-none"
-                placeholder="duck_seven@jiggist.com" type="email"
+                placeholder="duck_seven@jiggist.com" 
+                type="email"
               />
               {errors.email && (
                 <p className="text-red-400 text-xs mt-1">
