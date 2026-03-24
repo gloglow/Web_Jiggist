@@ -5,6 +5,7 @@ import { useAuth } from '@/providers/AuthProvider';
 import { useTranslations } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
 import LanguageSelectBtn from './common/LanguageSelectBtn';
+import ImageItem from './common/ImageItem';
 
 const category = ['liquor', 'ingredient', 'tool', 'accessory'];
 
@@ -12,6 +13,8 @@ const Header = () => {
   const { user, loading } = useAuth();
   const pathname = usePathname();
   const router = useRouter();
+
+  const imagePath = "../../"
 
   const commonT = useTranslations("common");
 
@@ -37,12 +40,11 @@ const Header = () => {
             href="/"
             className="flex items-center gap-3"
           >
-            <div className="w-10 h-10 bg-linear-to-tr from-primary to-accent rounded flex items-center justify-center">
-              <span className="material-symbols-outlined text-white">architecture</span>
-            </div>
-            <h1 className="text-2xl font-bold tracking-tighter uppercase font-serif">
-              {commonT("header.jiggist")}
-            </h1>
+            <ImageItem
+              name='logo'
+              width={150}
+              height={50}
+            />
           </Link>
           <nav className="hidden md:flex items-center gap-10">
             {category.map((item) => (
@@ -52,7 +54,7 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-8">
           <div className="flex items-center gap-6">
-            <LanguageSelectBtn/>
+            <LanguageSelectBtn />
             {menu.map((item) => (
               <IconLinkBtn
                 key={item.icon}
