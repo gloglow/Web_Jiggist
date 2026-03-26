@@ -40,7 +40,7 @@ export default function ProductDetails(
       </div>
       <div>
         {product.tags.map((tag) => (
-          <span>#{tag} </span>
+          <span key={tag}>#{tag} </span>
         ))}
       </div>
       <div className="mt-auto space-y-4">

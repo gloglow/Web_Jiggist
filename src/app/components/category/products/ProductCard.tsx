@@ -5,10 +5,28 @@ import { t } from "../../../../../lib/i18n"
 import { useLocale } from 'next-intl';
 import { Locale } from "@/types/locale";
 import { Link } from "../../../../../navigation";
+import { useAuth } from "@/providers/AuthProvider";
+import { addProductToCart } from "@/repositories/cart.client";
+import { useRouter } from "next/navigation";
 
 export default function ProductCard(product: Product) {
+  const { user, loading } = useAuth();
+  const router = useRouter();
   const locale = useLocale() as Locale;
   const commonT = useTranslations("common");
+
+  if (loading) {
+    return null;
+  }
+
+  const handleAddToCart = (productId: string) => {
+    if (user) {
+      addProductToCart(user.uid, productId, 1);
+      alert("Item added to cart.")
+    } else {
+      router.push("/login");
+    }
+  }
 
   return (
     <Link
@@ -18,7 +36,15 @@ export default function ProductCard(product: Product) {
       <div className="aspect-4/5 overflow-hidden bg-background-dark relative">
         <img className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" data-alt="Professional copper cocktail shaker set on dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClNEz3Kyv7b9NfttHAaqzP3lmE_qaJA3xmscSBot2Hr3Rx8SOaxlyOQBRzvgzLw6Xna0TuwvUeeme8UWCTkyTyl4axu0z3PLQAss-ZC_jUqtYATbX-A21rW1HGQjJLY3_duLytmVBaFe_lxF6QhEYikJxM4m6h9PZ7zEwh3pVlAQC7RAU2XDeK4v_If99GHnJNMMnpoyOHMLKQHROHc9wkrNZkIUuNnV3oEfuJd92TYdZLoDb3Nf0S3tUCQ2sp7HkKxrpy8Ehs7Vo" />
         <div className="absolute inset-0 bg-linear-to-t from-background-dark/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-          <button className="w-full bg-primary text-white font-bold py-3 rounded-lg flex items-center justify-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform">
+          <button
+          onClick={(e) => 
+            {
+              e.stopPropagation();
+              e.preventDefault();
+              handleAddToCart(product.id)
+            }} 
+          className="w-full bg-primary text-white font-bold py-3 rounded-lg flex items-center justify-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform"
+          >
             <span className="material-symbols-outlined text-sm">add_shopping_cart</span>{commonT("addToCart")}
           </button>
         </div>

@@ -23,7 +23,6 @@ export default async function Products({
 
   const awaitedSearchParams = await searchParams;
 
-  const search = awaitedSearchParams.search;
   const subcategories = awaitedSearchParams.subcategories?.split(",") ?? [];
   const brands = awaitedSearchParams.brands?.split(",") ?? [];
   const priceRange: [number, number] =

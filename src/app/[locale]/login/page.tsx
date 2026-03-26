@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { login, loginWithGoogle } from "@/repositories/auth";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
+import { setAuthCookie } from "@/action/auth";
 
 const navigationProps = ["login"];
 
@@ -25,6 +26,8 @@ export default function Login() {
   const onSubmit = async (data: { email: string, password: string }) => {
     try {
       const user = await login(data.email, data.password);
+      const token = await user.getIdToken();
+      await setAuthCookie(token);
       router.push("/");
     } catch (error) {
       alert("Invalid email or password.")
