@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍸 Bartender向けECサイト（中断）
+バーテンダー向けに、ツール・材料・スピリッツなどを検索・購入できるモダンなECアプリです。
 
-## Getting Started
+---
+## スクリーンショット
 
-First, run the development server:
+（※ここに実際の画面キャプチャを追加）
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 技術スタック
+* Frontend: Next.js（App Router）, TypeScript
+* Styling: Tailwind CSS
+* Backend: Firebase（Firestore, Authentication）
+* i18n: next-intl
+
+---
+
+## 主な機能
+* ユーザー認証（Firebase Authentication）
+* カート機能（商品追加・数量管理）
+* 多言語対応（英語 / 日本語 / 韓国語）
+* 商品フィルタリング・ソート機能
+* Firestoreベースのデータ設計
+
+---
+
+## アーキテクチャ
+* Server ComponentとClient Componentの役割分離
+* Repositoryパターンによるデータアクセスの抽象化
+* カート機能はFirebase Client SDKを利用
+* 認証およびセキュア処理はServer Actionで管理
+
+---
+
+## データ構造
+```
+USERS/{userId}/CART_ITEMS/{productId}
+PRODUCTS/{productId}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 工夫した点
+### 1. サーバーコンポーネントとクライアントコンポーネントの使い分け
+* 商品目録画面を実装するとき、ページをクライアントコンポーネントにして問題を解決したいと思ったりしましたが、SEOが大事なページなため、データのfetchはサーバーで処理するように工夫しました。
+* また、基本方針として、ページ内の要素を細かく分け、それぞれでクライアントコンポーネントの機能が必要なものだけクライアントコンポーネントとするようにしました。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. データ構造
+* NoSQLを初めて経験しましたが、機能ごとに一気に呼び出す必要があるデータは何かを意識してDBを設計しました。
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## セットアップ
+```bash
+yarn install
+yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔑 環境変数
+```
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+FIREBASE_CLIENT_EMAIL=
+FIREBASE_PRIVATE_KEY=
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 プロジェクト中断理由
+* 他のプロジェクトを新しく始めることになったため
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
