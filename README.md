@@ -54,7 +54,7 @@ yarn dev
 
 ---
 
-## 🔑 環境変数
+## 環境変数
 ```
 NEXT_PUBLIC_FIREBASE_API_KEY=
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
@@ -65,7 +65,7 @@ FIREBASE_PRIVATE_KEY=
 
 ---
 
-## 📌 プロジェクト中断理由
+## プロジェクト中断理由
 * 他のプロジェクトを新しく始めることになったため
 
 ---
